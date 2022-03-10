@@ -1,0 +1,142 @@
+.third-part {
+  width: 1150px;
+  height: 415px;
+  margin: auto;
+  margin-top: 131px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-part .container-box {
+  position: relative;
+  width: 360px;
+  height: 330px;
+  background-color: #f4ffb9;
+}
+
+.third-part .container-box .container-box-ul {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px auto;
+  list-style-type: none;
+  height: 124px;
+}
+
+.third-part .container-box .container-box-ul .container-box-icn {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 7rem;
+  background-color: white;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.third-part .container-box .container-box-ul .container-box-icn .container-box-icon {
+  color: #c0df19;
+}
+
+.third-part .container-box .container-box-info {
+  height: 95px;
+}
+
+.third-part .container-box .container-box-info .container-box-info-headline {
+  height: 31px;
+  margin: 0px auto;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.third-part .container-box .container-box-info .container-box-info-information {
+  margin: auto;
+  margin-top: 9px;
+  color: #919191;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Muli, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  width: 265px;
+}
+
+.third-part .container-box .container-box-button {
+  height: 115px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-part .container-box .container-box-button div {
+  width: 145px;
+  height: 50px;
+  background-color: #c0df19;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.third-part .container-box .container-box-button div h1 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  font-family: sans-serif;
+}
+
+.third-part .container-box-button div:hover {
+  background-color: #a3be10 !important;
+}
+
+.third-part .container-box:hover .container-box-icn {
+  background-color: #c0df19 !important;
+}
+
+.third-part .container-box:hover .container-box-icon {
+  color: white !important;
+}

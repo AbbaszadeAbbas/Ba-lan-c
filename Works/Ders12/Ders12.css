@@ -1,0 +1,33 @@
+.what-i-do{
+    border: 1px solid black;
+    width: 1144px;
+    height: 390px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: .35fr .35fr .35fr;
+}
+
+.box{
+     border: 1px solid black; 
+}
+
+.comment{
+    font-family: 'Poppins', helvetica;
+    margin: 10px 0;
+    position: relative;
+    font-size: 13px;
+    color: #292929;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.comment2{
+font-size: 13px;
+line-height: 22px;
+color: #999999;
+font-family: 'Poppins', helvetica;
+letter-spacing: 0.02em;
+font-weight: 300;
+}

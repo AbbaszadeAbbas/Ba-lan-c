@@ -1,0 +1,32 @@
+.navbar_brand_logo{
+    // border:1px solid red;
+}
+
+.navbar_brand_nav{
+    // border:1px solid red;
+    display:flex;
+    align-items:center;
+
+    ul{
+        display:flex;
+        align-items:center;
+
+        li{
+            margin: 0px 10px;
+        }
+    }
+}
+
+.navbar_user{
+    // border: 1px solid red;
+    display:flex;
+    align-items:center;
+
+    button{
+        background:;
+        color:white;
+        padding:10px 20px;
+        margin: 0px 5px;
+        border-radius:20px;
+    }
+}

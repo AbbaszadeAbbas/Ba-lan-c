@@ -1,0 +1,119 @@
+.third-part{
+    // border: 1px solid black;
+    width: 1150px;
+    height: 415px;
+    margin: auto;
+    margin-top: 131px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .container-box {
+      // border: 1px solid black;
+      position: relative;
+      width: 360px;
+      height: 330px;
+      background-color: #f4ffb9;
+
+      .container-box-ul {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        list-style-type: none;
+        // border: 1px solid black;
+        height: 124px;
+
+        .container-box-icn {
+          // border: 3px solid black;
+          width: 130px;
+          height: 130px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 7rem;
+          background-color: white;
+          transition: all .4s ease;
+
+          .container-box-icon {
+            color: #c0df19;
+          }
+        }
+      }
+
+      .container-box-info {
+        // border: 1px solid red;
+        height: 95px;
+
+        .container-box-info-headline {
+          // border: 1px solid green;
+          height: 31px;
+          margin: 0px auto;
+
+          font-family: 'Droid Sans', sans-serif;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 1.1;
+          box-sizing: border-box;
+          text-align: center;
+          padding-bottom: 35px;
+        }
+
+        .container-box-info-information {
+          // border: 1px solid purple;
+          margin: auto;
+          margin-top: 9px;
+
+          color: #919191;
+          box-sizing: border-box;
+          font-family: Muli, sans-serif;
+          font-size: 14px;
+          line-height: 1.42857143;
+          text-align: center;
+          width: 265px;
+        }
+      }
+
+      .container-box-button {
+        // border: 1px solid blue;
+        height: 115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+          width: 145px;
+          height: 50px;
+          background-color: #c0df19;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          border-radius: 40px;
+
+          h1 {
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            font-family: sans-serif;
+          }
+        }
+      }
+    }
+
+    .container-box-button div:hover {
+      background-color: #a3be10 !important;
+    }
+
+    .container-box:hover .container-box-icn {
+      background-color: #c0df19 !important;
+    }
+
+    .container-box:hover .container-box-icon {
+      color: white !important;
+    }
+  }

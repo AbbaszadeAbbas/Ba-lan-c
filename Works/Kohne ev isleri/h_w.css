@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://azea.az/assets/front/images/slider/bde7ac8121ee53787df8a57c4f54a5c1.jpg);
+} 
+
+#top-bar{
+    border-bottom: 1px solid rgb(96, 96, 96);
+    padding: 15px 0px;
+    color: aliceblue;
+}
+ 
+
+.top-bar-container{
+    margin-left: 96px;
+    color: aliceblue;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top-bar-info-item{
+    padding: 0px 10px;
+    /*border-right: 1px solid rgb(96, 96, 96);*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.top-bar-info-item i{
+    color: yellow;
+}
+
+.top-bar-user{
+    /*border: 1px solid rgb(96, 96, 96);*/
+    width: 131px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 367px;
+}
+
+.top-bar-user-icon{
+    display: flex;
+}
+

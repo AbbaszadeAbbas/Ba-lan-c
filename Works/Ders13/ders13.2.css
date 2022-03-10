@@ -1,0 +1,12 @@
+.fas fa-facebook{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: all .5s linear;
+}
+.fas fa-facebook:hover{
+    width: 200px;
+    height: 200px;
+    color:white
+}

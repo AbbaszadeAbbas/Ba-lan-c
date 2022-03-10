@@ -1,0 +1,138 @@
+section {
+    // border: 1px solid black;
+    width: 1150px;
+    height: 415px;
+    margin: auto;
+    margin-top: 131px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-box {
+    // border: 1px solid black;
+    width: 340px;
+    height: 243px;
+}
+
+.container-box:hover .hover{
+    margin-left: 0px;
+    width: 340px;
+    opacity: 1;
+}
+
+.hover{
+    position: absolute;
+    opacity: 0;
+    border: 1px solid #e12573;
+    height: 243px;
+    width: 0px;
+    margin-left: 340px;
+    background-color: #e12573;
+    transition: all .4s ease;
+}
+
+.container-box:hover .container-box-icon{
+    color:white;
+}
+
+.container-box:hover .container-box-info-headline{
+    color: white;
+}
+
+.container-box:hover .container-box-info-information{
+    color: white;
+}
+
+.container-box:hover .container-box-button div{
+    background-color: #ff378a;
+    position: fixed;
+}
+
+.container-box-words {
+    // border: 1px solid black;
+    width: 240px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.container-box-icon {
+    color: #e12573;
+}
+
+.container-box ul {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    // border: 1px solid black;
+    height: 150px;
+    width: 100px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.container-box-icn {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box-info {
+    // border: 1px solid red;
+    height: 45px;
+}
+
+.container-box-info-headline {
+    // border: 1px solid green;
+    height: 31px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.1;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 240px;
+}
+
+.container-box-info-information {
+    // border: 1px solid purple;
+    color: #919191;
+    box-sizing: border-box;
+    font-family: Muli, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    width: 200px;
+}
+
+.container-box-button {
+    // border: 1px solid blue;
+    height: 115px;
+}
+
+.container-box-button div {
+    width: 145px;
+    height: 50px;
+    background-color: #e12573;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.container-box-button div h1 {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-family: sans-serif;
+}

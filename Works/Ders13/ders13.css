@@ -1,0 +1,13 @@
+.image{
+    margin-top: 260px;
+    width: 225px;
+    height: 225px;
+    transition: all .1s linear ;
+    margin-left: 100px;
+}
+
+.image:hover{
+width: 225px;
+margin-top:245px; 
+margin-left: 100px;
+}
