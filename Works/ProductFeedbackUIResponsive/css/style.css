@@ -1,1 +1,83 @@
-/* No CSS */
+section {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.right-side-1 {
+  width: 825px;
+  height: 72px;
+  border-radius: 10px;
+  background-color: #373F68;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right-side-1 span {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.right-side-1 i {
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.right-side-1 p {
+  margin-left: 30px;
+  color: #ffffff;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.right-side-1 b {
+  margin-left: 30px;
+  color: #ffffff;
+  font-family: Jost;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.right-side-1 div {
+  width: 158px;
+  height: 44px;
+  margin-left: 17rem;
+  border-radius: 10px;
+  background-color: #ad1fea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right-side-1 div b {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+  margin: 0px;
+}
