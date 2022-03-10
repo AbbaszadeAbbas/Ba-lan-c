@@ -1,13 +1,19 @@
 // Color
 $color-373F68: #373F68;
+$color-ffffff: #ffffff;
+$color-ad1fea: #ad1fea;
+$color-F2F4FE: #F2F4FE;
 
 // Sizes
-$sapce-1200px:1200px;
-$sapce-825px:825px;
-$sapce-72px:72px;
-$sapce-10px:10px;
-$sapce-14px:14px;
-$sapce-20px:20px;
+$space-1200px:75rem;
+$space-825px:51.563rem;
+$space-72px:4.5rem;
+$space-10px:0.625rem;
+$space-14px:0.875rem;
+$space-20px:1.25rem;
+$space-158px:9.875rem;
+$space-44px:2.75rem;
+$space-640px:40rem;
 
 
 section{
@@ -19,55 +25,19 @@ section{
 
 .right-side-1 {
   // border: 1px solid orange;
-  width: $sapce-825px;
-  height: $sapce-72px;
-  border-radius:$sapce-10px;
+  width: $space-825px;
+  height: $space-72px;
+  border-radius:$space-10px;
   background-color: $color-373F68;
   display: flex;
   align-items: center;
-
-  span {
-      font-family: Jost;
-      font-style: normal;
-      font-weight: normal;
-      font-size: $sapce-14px;
-      line-height: $sapce-20px;
-      color: #ffffff;
-      margin-left: 5px;
-  }
-
-  i {
-      color: #ffffff;
-      margin-left: 30px;
-  }
-
-  p {
-      // border: 1px solid black;
-      margin-left: 30px;
-      color: #ffffff;
-      font-family: Jost;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 26px;
-  }
-
-  b {
-      // border: 1px solid red;
-      margin-left: 30px;
-      color: #ffffff;
-      font-family: Jost;
-      font-size: 14px;
-      line-height: 20px;
-  }
-
   div {
       // border: 1px solid black;
-      width: 158px;
-      height: 44px;
-      margin-left: 17rem;
-      border-radius: 10px;
-      background-color: rgba(173, 31, 234, 1);
+      width:$space-158px;
+      height: $space-44px;
+      margin-left: $space-640px;
+      border-radius: $space-10px;
+      background-color: $color-purple;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -76,10 +46,10 @@ section{
           font-family: Jost;
           font-style: normal;
           font-weight: bold;
-          font-size: 14px;
-          line-height: 20px;
-          color: #F2F4FE;
-          margin: 0px;
+          font-size: $space-14px;
+          line-height: $space-20px;
+          color: $color-F2F4FE;
+          margin: 0;
       }
   }
 }
