@@ -11,7 +11,7 @@ section {
 
 .right-side-1 {
   width: 51.563rem;
-  height: 4.5rem;
+  height: 113px;
   border-radius: 0.625rem;
   background-color: #373F68;
   display: -webkit-box;
@@ -22,12 +22,12 @@ section {
           align-items: center;
 }
 
-.right-side-1 div {
+.right-side-1 .add_feedback {
   width: 9.875rem;
   height: 2.75rem;
-  margin-left: 40rem;
   border-radius: 0.625rem;
   background-color: #ad1fea;
+  margin-left: 31rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +39,7 @@ section {
           align-items: center;
 }
 
-.right-side-1 div b {
+.right-side-1 .add_feedback .add_feedback_b {
   font-family: Jost;
   font-style: normal;
   font-weight: bold;
@@ -47,4 +47,48 @@ section {
   line-height: 1.25rem;
   color: #F2F4FE;
   margin: 0;
+}
+
+.nav {
+  width: 6.438rem;
+  height: 3.75rem;
+  margin-left: 1.938rem;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-bar-i {
+  color: #CDD2EE;
+}
+
+.nav-bar-nav {
+  margin: 0;
+  margin-right: 0.938rem;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #ffffff;
+}
+
+.nav-p {
+  margin-top: 0.25rem;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.188rem;
+  letter-spacing: -0.021rem;
+  color: #ffffff;
 }
