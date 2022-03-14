@@ -1,5 +1,1 @@
-wave Hi, I’m @AbbaszadeAbbas
-eyes I’m interested in Web-site creating
-seedling I’m currently learning JavaScript
-revolving_hearts I’m looking to collaborate on ...
-mailbox How to reach me ...
+.
