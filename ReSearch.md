@@ -1,4 +1,5 @@
 ﻿*13 fevral*
+
 # Sual 1: *_Javascript proqramlaşdırma dili hansı sahələrdə istifadə olunur?_*
 
 1. HTML sehifesinin daxilinde islenir esasen.
@@ -32,6 +33,7 @@ imkanlar verən alqoritmik dildir.
 
 
 *2 mart*
+
 # Sual 1: *_Interpreter və compiler dillər arasındakı fərqləri haqqında araşdırma edərək öz anladığınız formada yazın_*
 <!--Source(https://youtu.be/e4ax90XmUBc)-->
 *_Interpreter_*
@@ -104,3 +106,18 @@ console.log(msg)
 2)Layihede istifade olunmus Common classlar yazilmalidirki kodlarin yazilmasi nisbeten rahatlashsin
 3)Layihenin umumi strukturu yuxaridan asagi olmaqla hazirlanmaga baslayir
 4)Class adlandirilmasinda Kebab case ve ya Camel case den istifade olunmasi daha elverislidir(SASS sag olsun bizi bu derdden qurtarir)
+
+
+*14 mart*
+
+
+# Sual 1.1: *_Dəyişən təyin edərkən ya da dəyər mənimsədərkən boşluqlardan istifadə etsək bu mənə error olaraq qayıdar mı? let a=5; let a= 5; bu iki formada yazılışlardan hansısa error verəcək mi?_*
+
+'let x=5' ve 'let x= 5'
+
+Bu yazilis sekillerinin her ikisi dogrudur (bu yazilari daxil ederken hec bir errorla qarsilasmiriq.) amma her ikiside eyni deyil.Deyisen teyin ederken ve ya elemente deyer menimsederken bosluq istifadesi hec bir errora sebeb olmur.
+
+# Sual 1.2: *_Bütün proqramlaşdırma dillərində olduğu kimi Js-də xüsusi simvollardan istifadə edir. () və {} mötərizələri V8Engine tərəfindən necə analiz olunur? Bu mötərizələr tərcümə prosesində necə başa düşülür?_*
+
+() => This bracket is an 
+{} => This bracket is an empty *object*
