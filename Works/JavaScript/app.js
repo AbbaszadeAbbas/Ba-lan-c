@@ -40,11 +40,13 @@
 
 // //1-20 edelerin sira ile yazilisi END
 
-let x=5
-let y= 6
-let z = 7
-let a =8
-console.log(x)
-console.log(y)
-console.log(z)
-console.log(a)
+// let x=5
+// let y= 6
+// let z = 7
+// let a =8
+// console.log(x)
+// console.log(y)
+// console.log(z)
+// console.log(a)
+
+
