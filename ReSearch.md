@@ -119,5 +119,5 @@ Bu yazilis sekillerinin her ikisi dogrudur (bu yazilari daxil ederken hec bir er
 
 # Sual 1.2: *_Bütün proqramlaşdırma dillərində olduğu kimi Js-də xüsusi simvollardan istifadə edir. () və {} mötərizələri V8Engine tərəfindən necə analiz olunur? Bu mötərizələr tərcümə prosesində necə başa düşülür?_*
 
-() => This bracket is an 
+() => This bracket 
 {} => This bracket is an empty *object*
