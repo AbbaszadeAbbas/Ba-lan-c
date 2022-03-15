@@ -1,4 +1,4 @@
-﻿*13 fevral*
+*13 fevral*
 
 # Sual 1: *_Javascript proqramlaşdırma dili hansı sahələrdə istifadə olunur?_*
 
@@ -119,5 +119,60 @@ Bu yazilis sekillerinin her ikisi dogrudur (bu yazilari daxil ederken hec bir er
 
 # Sual 1.2: *_Bütün proqramlaşdırma dillərində olduğu kimi Js-də xüsusi simvollardan istifadə edir. () və {} mötərizələri V8Engine tərəfindən necə analiz olunur? Bu mötərizələr tərcümə prosesində necə başa düşülür?_*
 
-() => This bracket 
-{} => This bracket is an empty *object*
+() =>  Parentheses =>
+
+1) Ifadede emeliyyatlarin sirasini idare etemek ucun istifade edilir.
+2) Konstruktora ve ya Metoda paramatrlerin verilmesi
+
+
+{} => Curly braces =>
+
+1) Key= value elementleri saxlamaq ucun istifade olunur.
+
+# Sual 1.3: *_ Javascript Case Sensitive dildir?_*
+
+Beli, meselen:
+let StudentName = "Abbas"
+console.log(studentName)
+
+yeni siz her hansi bir deyeri 'StudentName' e menimsedib amma
+'console.log()' a  'studentName' yazarsaq Error verecek .
+
+# Sual 1.4:*_Javascriptdə kod yazarkən indentation hansı hallarda istifadə olunur və mən kod yazarkən indentation istifadə etməyə məcburammı?_*
+
+JavaScriptde abzaslardan kodlari daha seliqeli yazmaq ucun istifade olunur. Hemcinin abzasdan istifade mecburi deyil (kodu abzasdan istifade etmeden yazdiqda ise hec bir error vermir.)
+
+
+# Sual 2.1: *_Let x=5; kodlarının v8engine tərəfindən tərcümə edilərək maşın dilinə çevrilmə prosesini necə təsəvüür edirsiniz?_*
+
+Ilk once '5'  reqeminin binary kodu yazilir. Ne qeder yer tutdugu yoxlanilir ve yaddashda ona uygun yer tutur.
+
+
+# Sual 2.2:*_Primitive və reference data tipləri deyə iki kategoriyaya ayrılma səbəbi nə ola bilər?_*
+
+Primitive Data Types:
+- Numbers
+- String
+- Boolean
+- Null
+- Undefined
+- Symbols
+
+Reference Data Types
+- Objects
+- Functions
+- Collections
+- Arrays
+- Dates
+- Other types of objects...
+
+# Sual 2.3:*_Yuxaridaki iki tip arasında fərqli xüsusiyyətlər nədir?_*
+
+'Primitive data type'
+1) Cox sadedirler,
+2)Cism deyildirler,
+3)Üsullari yoxdur.
+
+'Reference data type' -
+1)Dinamik tebietlidirler yeni sabit boyuklukleri yoxdur,
+2)Cism kimi nezere alinirlar buna gorede üsullari vardir.
