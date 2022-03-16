@@ -5,7 +5,7 @@
 // let x = 5
 // let y = 6
 
-// let operator = '+'
+// let operator = '-'
 
 // if (x * 1 == x && y * 1 == y) {
 //   if (operator == '+') {
@@ -50,3 +50,16 @@
 // console.log(a)
 
 
+// TASK № 1
+
+let a = 6
+let b = 6
+let c = 9
+
+if (c > b && b > a) {
+	console.log('b-deyiseni c-deyisenine daha yaxindir.')
+} else if (c > a && a > b) {
+	console.log('a-deyiseni c-deyisenine daha yaxindir.')
+} else if (a == b && c > a) {
+	console.log('a-deyiseni b-deyisenine beraberdir ve her ikisi c-den')
+}
