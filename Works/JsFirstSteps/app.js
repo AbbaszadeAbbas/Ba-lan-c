@@ -52,14 +52,26 @@
 
 // TASK № 1
 
-let a = 6
-let b = 6
-let c = 9
+// let a = 6
+// let b = 5
+// let c = 9
 
-if (c > b && b > a) {
-	console.log('b-deyiseni c-deyisenine daha yaxindir.')
-} else if (c > a && a > b) {
-	console.log('a-deyiseni c-deyisenine daha yaxindir.')
-} else if (a == b && c > a) {
-	console.log('a-deyiseni b-deyisenine beraberdir ve her ikisi c-den')
-}
+// if (c > b && b > a) {
+// 	console.log('b-deyiseni c-deyisenine daha yaxindir.')
+// } else if (c > a && a > b) {
+// 	console.log('a-deyiseni c-deyisenine daha yaxindir.')
+// } else if (a == b && c > a) {
+// 	console.log('a-deyiseni b-deyisenine beraberdir ve her ikisi c-den kicikdir')
+// }
+
+// TASK № 2
+
+// let x = false
+
+// console.log('You entered ' + typeof(x))
+
+// TASK № 3
+
+let x = 1234567891011121314151617181920
+
+console.log(x)

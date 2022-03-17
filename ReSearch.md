@@ -176,3 +176,4 @@ Reference Data Types
 'Reference data type' -
 1)Dinamik tebietlidirler yeni sabit boyuklukleri yoxdur,
 2)Cism kimi nezere alinirlar buna gorede üsullari vardir.
+
