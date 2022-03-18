@@ -70,8 +70,4 @@
 
 // console.log('You entered ' + typeof(x))
 
-// TASK № 3
-
-let x = 1234567891011121314151617181920n
-
-console.log(x)
+// TASK № 
