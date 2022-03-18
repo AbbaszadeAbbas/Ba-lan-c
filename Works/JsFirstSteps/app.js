@@ -95,4 +95,12 @@ if(/*a>z>y>x*/a>z && z>y && y>x){
 	console.log(x,y,a,z)
 }else if(/*a>x>y>z*/ a>x && x>y && y>z){
 	console.log(a,x,y,z)
+}else if(/*z>x>y>a*/ z>x && x>y && y>a){
+	console.log(z,x,y,a)
+}else if(/*y>x>a>z*/ y>x && x>a && a>z){
+	console.log(y,x,a,z)
+}else if(/*x>a>y>z*/ x>a && a>y &&y>z){
+	console.log(x,a,y,z)
+}else if(/*a>y>x>z*/ a>y&& y>x && x>z){
+	console.log(a,y,x,z)
 }
