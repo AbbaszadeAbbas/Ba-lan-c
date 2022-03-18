@@ -70,4 +70,29 @@
 
 // console.log('You entered ' + typeof(x))
 
-// TASK № 
+// TASK № 4
+
+let x =4
+let y =3
+let a =1
+let z =0
+
+if(/*a>z>y>x*/a>z && z>y && y>x){
+	console.log(a,z,y,x)
+}else if(/*a>z>x>y*/ a>z && z>x && x>y){
+	console.log(a,z,x,y)
+}else if(/*a>x>z>y*/ a>x && x>z && z>y){
+	console.log(a,x,z,y)
+}else if(/*x>a>z>y*/ x>a && a>z && z>y){
+	console.log(x,a,z,y)
+}else if(/*a>y>z>x*/ a>y && y>z && z>x){
+	console.log(a,y,z,x)
+}else if(/*y>a>z>x*/ y>a && a>z && z>x){
+	console.log(y,a,z,x)
+}else if(/*z>a>y>x*/ z>a && a>y && y>x){
+	console.log(z,a,y,x)
+}else if(/*x>y>a>z*/ x>y && y>a && a>z){
+	console.log(x,y,a,z)
+}else if(/*a>x>y>z*/ a>x && x>y && y>z){
+	console.log(a,x,y,z)
+}
