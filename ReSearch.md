@@ -177,3 +177,7 @@ Reference Data Types
 1)Dinamik tebietlidirler yeni sabit boyuklukleri yoxdur,
 2)Cism kimi nezere alinirlar buna gorede üsullari vardir.
 
+*After Holiday*
+
+# Sual 1.1:*_Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?_*
+
