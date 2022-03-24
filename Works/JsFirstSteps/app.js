@@ -104,3 +104,9 @@
 // }else if(/*a>y>x>z*/ a>y&& y>x && x>z){
 // 	console.log(a,y,x,z)
 // }
+
+function mesajGonder(){
+	alert('Salam Millet')
+}
+
+mesajGonder();
