@@ -181,3 +181,60 @@ Reference Data Types
 
 # Sual 1.1:*_Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?_*
 
+
+
+# Sual 1.2:*_Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr tapın_*
+
+
+
+
+# Sual 1.3:*_Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilərsiniz?_*
+
+
+
+
+
+# Sual 1.4:*_Imperative və deklarative yanaşmaya aid kod nümunələri yazın özünüz üçün .Düzgün olub olmadığını yoldaşlarınızla analiz edin_*
+
+
+
+
+# Sual 2.1:*_Function necə formada təyin olunur?_*
+
+
+
+# Sual 2.2:*_Fərqli formada function təyin etmə sizcə hansı hallarda lazım ola bilər?_*
+
+
+
+# Sual 2.3:*_Function scope və global scope arasında fərqlər nədir?_*
+
+
+
+
+# Sual 2.3:*_Function ramdə necə yer tutur?_*
+
+
+
+# Sual 3.1:*_Javascript kodlarının arxa planda işləmə prinsipi necədir?_*
+
+
+
+# Sual 3.2:*_Allocate memory-use memory- release memory ifadələri nə deməkdir?_*
+
+
+
+# Sual 3.3:*_Static allocation vs dynamic allocation_*
+
+
+
+# Sual 3.4:*_Garbage collection nədir?_*
+
+
+
+# Sual 3.5:*_Hoisting nədir?_*
+
+
+
+# Sual 3.5:*_Scope və hoisting ifadələri arasında fərq nədir?_*
+
