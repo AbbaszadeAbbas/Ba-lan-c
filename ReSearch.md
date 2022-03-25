@@ -184,9 +184,11 @@ Reference Data Types
 
 
 # Sual 1.2:*_Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr tapın_*
+- Imperativ dillər — deklarativ proqramlaşdırmadan fərqli olaraq, proqram vəziyyətini dəyişdirən təlimatlar şəklində hesablama prosesini təsvir edir. İmperativ proqram təbii dillərdə əmr forması ilə ifadə edilən əmrlərə çox oxşayır, yəni bu əmrlər ardıcıllığıdır və onu kompyuter yerinə yetirməlidir. Bütün diqqət yalnız bu əmrlər ardıcıllığının reallaşdırılmasına yönəlmişdir, verilənlər və onların strukturu isə ikinci dərəcəli əhəmiyyət kəsb edir. Bu cür dillərə qurğuların drayverlərinin yaradılmasında istifadə olunan dillər nümunə ola bilər (Assembler və C++) . Bu dillərdən biz istifadə etdikdə biz bilmirik ki, hansı məlumatlar qurğuya göndəriləcək və ya onlardan alınacaq, amma biz bilirik ki, verilənlər üzərində hansı zəruri əməliyyatlar həyata keçiriləcəkdir.
+İmperativ proqramlaşdırma dilləri funksional və məntiqi proqramlaşdırma dillərinə qarşı qoyulur. Funksional dillər (Haskell) təlimatlar ardıcıllığından ibarət deyil və qlobal vəziyyətə malik deyildir. Məntiqi proqramlaşdırma dilləri (Prolog) adətən nəyi hesablamağın lazım olduğunu müəyyən edir, lakin bunu necə etməyi müəyyən etmir.
 
-
-
+- Deklarativ dillər — elə proqramlaşdırma dillərinə deyilir ki, verilənlə iş alqoritmi proqramlaşdırma dilində “tikilmişdir”, proqram özü isə elə qaydaya salınmış və strukturlaşdırılmış verilənlərdən ibarətdir ki, “standart” çıxarış alqoritmləri onları asanlıqla emal edir. Deklarativ dillərdə verilənlərlə onları emal edən alqoritm arasındakı sanki “fərqlər yoxdur”. Hesablamaların sonrakı istiqaməti proqrama daxil edilən verilənlərin “qiymətindən” asılıdır. Deklarativ dillərə LİSP və PROLOG dillərini nümunə göstərmək olar. LİSP dilində həm proqram, həm də verilənlər onların üzərində yerinə yetirilən funksiyalarla birlikdə “siyahılardan” ibarətdir.
+Deklarativ dilləri o halda istifadə etmək yaxşıdır ki, “verilənlər proqramı idarə edir”. Məsələn belə halla biz ekspert sistemlərinini yaratdıqda, proqramlaşdırma dilləri üçün translyatorlar yaratdıqda, süni intellektin əksər məsələlərini həll etdikdə qarşılaşırıq. Məhz bu sahələrdə onların istifadəsi daha böyük effektivliyə gətirib çıxarır.
 
 # Sual 1.3:*_Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilərsiniz?_*
 
