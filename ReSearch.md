@@ -264,3 +264,7 @@ Local scope - Əgər siz bəzi dəyişənləri əyri mötərizələrin {} daxili
     Function scope - Funksiya əhatə dairəsi(Local scope) funksiya daxilində müəyyən edilmiş dəyişənlərin əlçatanlığıdır, bu dəyişənlərə heç bir başqa funksiyadan və hətta əsas fayldakı funksiyadan kənarda daxil olmaq mümkün deyil.
 
     Block scope - Blokun əhatə dairəsi {} əyri mötərizələr daxilində dəyişənlərin əhatə dairəsi kimi müəyyən edilə bilər. İndi bu qıvrımlı mötərizələr döngələrdən, şərti ifadələrdən və ya başqa bir şeydən ibarət ola bilər. Bu dəyişənlərə yalnız {} əyri mötərizədə istinad etməyə icazə verilir.
+
+
+# Sual 3.1: *_Function literal nədir?_*
+
