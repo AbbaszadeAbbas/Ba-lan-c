@@ -248,7 +248,19 @@ Void - Əgər metodumuzu əməliyyatı yerinə yetirməyə hazırlayırıqsa, la
 
 Return - Funksiyanın icrasını bitirir və funksiyanı çağıran şəxsə qaytarılacaq dəyəri təyin edir.
 
-# Sual 2.2:*_Return keyword-unun var olma məqsədi nədir?_*
+# Sual 1.2:*_Return keyword-unun var olma məqsədi nədir?_*
 
 
 Return keyword - Funksiyanın icrasını dayandırır və dəyəri qaytarır.
+
+# Sual 2.2:*_Block scope vs function scope vs global scope fərqlər nədir?_*
+
+Global scope - Hər hansı bir funksiya və ya əyri mötərizədən kənar müəyyən edilən dəyişənlər qlobal dəyişənlər kimi tanınır və qlobal əhatə dairəsinə malikdir. Qlobal əhatə dairəsi o deməkdir ki, dəyişənlərə həmin proqramın istənilən hissəsindən daxil olmaq olar, istənilən funksiya və ya şərti vəziyyət həmin dəyişənə daxil ola bilər.
+
+Function scope ve block scope ikisi birlikde Local scopa aiddir.
+
+Local scope - Əgər siz bəzi dəyişənləri əyri mötərizələrin {} daxilində və ya xüsusi funksiyanın içərisində təyin etsəniz, bu dəyişənlər yerli dəyişənlər adlanır.
+
+    Function scope - Funksiya əhatə dairəsi(Local scope) funksiya daxilində müəyyən edilmiş dəyişənlərin əlçatanlığıdır, bu dəyişənlərə heç bir başqa funksiyadan və hətta əsas fayldakı funksiyadan kənarda daxil olmaq mümkün deyil.
+
+    Block scope - Blokun əhatə dairəsi {} əyri mötərizələr daxilində dəyişənlərin əhatə dairəsi kimi müəyyən edilə bilər. İndi bu qıvrımlı mötərizələr döngələrdən, şərti ifadələrdən və ya başqa bir şeydən ibarət ola bilər. Bu dəyişənlərə yalnız {} əyri mötərizədə istinad etməyə icazə verilir.
