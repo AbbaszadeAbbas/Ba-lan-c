@@ -105,8 +105,62 @@
 // 	console.log(a,y,x,z)
 // }
 
-function mesajGonder(){
-	alert('Salam Millet')
-}
+// Dersde yazilanlar START
 
-mesajGonder();
+// function mesajGonder(){
+// 	alert('Salam Millet')
+// }
+
+// mesajGonder();
+
+
+// function ToplamMaas() {
+// 	let tMaas = 8000;
+// 	return tMaas	
+// }
+
+// function EmekdaslarinSayi() {
+// 	let eSay = 10;
+// 	return eSay 
+// }
+
+// function OrtalamaMaasHesabla() {
+// 	let oMaas = ToplamMaas() / EmekdaslarinSayi()
+// 	console.log(oMaas)
+// }
+
+// OrtalamaMaasHesabla()
+
+// if(false) {
+// 	var tMaas = 400
+// }
+
+// console.log(tMaas)
+
+// function DoSomething() {
+// 	console.log('Men bomba oglanam')
+// 	DoSomething()
+// }
+// DoSomething()
+
+// let i = 1;
+
+// function DoSomething() {
+// 	console.log('Men bomba oglanam');
+
+// 	if(i < 5) {
+// 		i++;
+// 		DoSomething();
+
+// 	}
+
+// 	console.log(i);
+
+// }
+
+
+// DoSomething();
+
+
+
+// Dersde yazilanlar END

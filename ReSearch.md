@@ -241,3 +241,9 @@ Deklarativ dilləri o halda istifadə etmək yaxşıdır ki, “verilənlər pro
 
 # Sual 3.5:*_Scope və hoisting ifadələri arasında fərq nədir?_*
 
+*2 Aprel* 
+# Sual 1.1:*_Void ve return function nedir?_*
+
+Void - Əgər metodumuzu əməliyyatı yerinə yetirməyə hazırlayırıqsa, lakin dəyəri qaytarmırıqsa, biz void açar sözündən istifadə edirik. Məsələn, verilənlər bazasına çıxış və ya qoşulma kimi əməliyyatlar etibarsız elan edilə bilər.
+
+Return - Funksiyanın icrasını bitirir və funksiyanı çağıran şəxsə qaytarılacaq dəyəri təyin edir.
