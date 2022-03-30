@@ -247,3 +247,8 @@ Deklarativ dilləri o halda istifadə etmək yaxşıdır ki, “verilənlər pro
 Void - Əgər metodumuzu əməliyyatı yerinə yetirməyə hazırlayırıqsa, lakin dəyəri qaytarmırıqsa, biz void açar sözündən istifadə edirik. Məsələn, verilənlər bazasına çıxış və ya qoşulma kimi əməliyyatlar etibarsız elan edilə bilər.
 
 Return - Funksiyanın icrasını bitirir və funksiyanı çağıran şəxsə qaytarılacaq dəyəri təyin edir.
+
+# Sual 2.2:*_Return keyword-unun var olma məqsədi nədir?_*
+
+
+Return keyword - Funksiyanın icrasını dayandırır və dəyəri qaytarır.
