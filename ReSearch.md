@@ -278,4 +278,16 @@ Yuxaridaki 3 ifade eyni menani kesb edir. Her ucunden anonim funksiya yaratmaq u
 
 1. V8-engine - Javascript-i maşın tərəfindən oxuna bilən koda çevirməyə kömək edir. Buna görə V8-engine kodunuzu icra etmək üçün çox vacib bir şeydir.
 
-2. AST -  Abstract Syntax Tree.
+2. AST -  Abstract Syntax Tree.Kompüter elmində abstrakt sintaksis ağacı (AST) və ya sadəcə sintaksis ağacı rəsmi dildə yazılmış mətnin (çox vaxt mənbə kodu) abstrakt sintaktik strukturunun ağac təsviridir. Ağacın hər qovşağı mətndə baş verən konstruksiyanı bildirir.
+
+# Sual 4:*_index->Value vs key->value fərqləri nədir?_*
+
+# Sual 5:*_while,for,for in loop_*
+
+Loop - JavaScript-də şərt əsasında təkrarlanan tapşırıqları yerinə yetirmək üçün istifadə olunur.
+
+For - Esasen mueyyen sayda olan dovrlerin tekrarlanmasi ucun istifade olunur.
+
+For in  - Obyektin xassələri üzərində təkrarlanır. Hər bir xassə üçün kod blokundakı kod yerinə yetirilir.
+
+While - Vəziyyətin qiymətləndirilməsi ilə başlayır. Şərt doğru olaraq qiymətləndirilirsə, kod blokundakı kod yerinə yetirilir. Şərt yalnış olaraq qiymətləndirilirsə, kod blokundakı kod yerinə yetirilmir və dövrə başa çatır.
