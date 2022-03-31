@@ -244,9 +244,9 @@ Deklarativ dilləri o halda istifadə etmək yaxşıdır ki, “verilənlər pro
 *2 Aprel* 
 # Sual 1.1:*_Void ve return function nedir?_*
 
-Void - Əgər metodumuzu əməliyyatı yerinə yetirməyə hazırlayırıqsa, lakin dəyəri qaytarmırıqsa, biz void açar sözündən istifadə edirik. Məsələn, verilənlər bazasına çıxış və ya qoşulma kimi əməliyyatlar etibarsız elan edilə bilər.
+1) Void - Əgər metodumuzu əməliyyatı yerinə yetirməyə hazırlayırıqsa, lakin dəyəri qaytarmırıqsa, biz void açar sözündən istifadə edirik. Məsələn, verilənlər bazasına çıxış və ya qoşulma kimi əməliyyatlar etibarsız elan edilə bilər.
 
-Return - Funksiyanın icrasını bitirir və funksiyanı çağıran şəxsə qaytarılacaq dəyəri təyin edir.
+2) Return - Funksiyanın icrasını bitirir və funksiyanı çağıran şəxsə qaytarılacaq dəyəri təyin edir.
 
 # Sual 1.2:*_Return keyword-unun var olma məqsədi nədir?_*
 
@@ -255,16 +255,27 @@ Return keyword - Funksiyanın icrasını dayandırır və dəyəri qaytarır.
 
 # Sual 2.2:*_Block scope vs function scope vs global scope fərqlər nədir?_*
 
-Global scope - Hər hansı bir funksiya və ya əyri mötərizədən kənar müəyyən edilən dəyişənlər qlobal dəyişənlər kimi tanınır və qlobal əhatə dairəsinə malikdir. Qlobal əhatə dairəsi o deməkdir ki, dəyişənlərə həmin proqramın istənilən hissəsindən daxil olmaq olar, istənilən funksiya və ya şərti vəziyyət həmin dəyişənə daxil ola bilər.
+1. Global scope - Hər hansı bir funksiya və ya əyri mötərizədən kənar müəyyən edilən dəyişənlər qlobal dəyişənlər kimi tanınır və qlobal əhatə dairəsinə malikdir. Qlobal əhatə dairəsi o deməkdir ki, dəyişənlərə həmin proqramın istənilən hissəsindən daxil olmaq olar, istənilən funksiya və ya şərti vəziyyət həmin dəyişənə daxil ola bilər.
 
 Function scope ve block scope ikisi birlikde Local scopa aiddir.
 
-Local scope - Əgər siz bəzi dəyişənləri əyri mötərizələrin {} daxilində və ya xüsusi funksiyanın içərisində təyin etsəniz, bu dəyişənlər yerli dəyişənlər adlanır.
+2. Local scope - Əgər siz bəzi dəyişənləri əyri mötərizələrin {} daxilində və ya xüsusi funksiyanın içərisində təyin etsəniz, bu dəyişənlər yerli dəyişənlər adlanır.
 
-    Function scope - Funksiya əhatə dairəsi(Local scope) funksiya daxilində müəyyən edilmiş dəyişənlərin əlçatanlığıdır, bu dəyişənlərə heç bir başqa funksiyadan və hətta əsas fayldakı funksiyadan kənarda daxil olmaq mümkün deyil.
+3. Function scope - Funksiya əhatə dairəsi(Local scope) funksiya daxilində müəyyən edilmiş dəyişənlərin əlçatanlığıdır, bu dəyişənlərə heç bir başqa funksiyadan və hətta əsas fayldakı funksiyadan kənarda daxil olmaq mümkün deyil.
 
-    Block scope - Blokun əhatə dairəsi {} əyri mötərizələr daxilində dəyişənlərin əhatə dairəsi kimi müəyyən edilə bilər. İndi bu qıvrımlı mötərizələr döngələrdən, şərti ifadələrdən və ya başqa bir şeydən ibarət ola bilər. Bu dəyişənlərə yalnız {} əyri mötərizədə istinad etməyə icazə verilir.
+4. Block scope - Blokun əhatə dairəsi {} əyri mötərizələr daxilində dəyişənlərin əhatə dairəsi kimi müəyyən edilə bilər. İndi bu qıvrımlı mötərizələr döngələrdən, şərti ifadələrdən və ya başqa bir şeydən ibarət ola bilər. Bu dəyişənlərə yalnız {} əyri mötərizədə istinad etməyə icazə verilir.
 
 
 # Sual 3.1: *_Function literal nədir?_*
 
+1) Anonymous functions
+2) Function literals
+3) Lambda expression
+
+Yuxaridaki 3 ifade eyni menani kesb edir. Her ucunden anonim funksiya yaratmaq ucun istifade olunur. 
+
+# Sual 3.2: *_V8-engine parser and AST._*
+
+1. V8-engine - Javascript-i maşın tərəfindən oxuna bilən koda çevirməyə kömək edir. Buna görə V8-engine kodunuzu icra etmək üçün çox vacib bir şeydir.
+
+2. AST -  Abstract Syntax Tree.
