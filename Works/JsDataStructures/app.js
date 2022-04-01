@@ -80,12 +80,12 @@
 // console.log(`${telebeler[0][1]} \ ${telebeler[1][1]}`)
 // console.log(`${telebeler[0][2]} \ ${telebeler[1][2]}`)
 
-// // Variant 6
-let adlar = ['Ehmed' , 'Memmed' , 'Sahil']
-let soyadlar = ['Ehmedov' , 'Qasimov' , 'Haciyev']
-let yaslar = [23 , 31 , 40]
-let telebeler = [adlar, soyadlar,yaslar]
+// // tv01
+let names = ['Eli' , 'Ehmed' , 'Sara' , 'Sevda' , 'Qurban']
+let surnames = ['Piriyev' , 'Memmedov' , 'Qurbanova' , "Ezizova" , "Sadiqzade"]
+let ages = [23 , 34 , 40 , 58 , 60]
+let students = [names, surnames,ages]
 
-for (i=0; i<3;i++){
-  console.log(`${telebeler[0][i]} \ ${telebeler[1][i]} \ ${telebeler[2][i]}`)
+for (i=0; i<5;i++){
+  console.log(`Ad: ${students[0][i]} \,Soyad: ${students[1][i]} \,Yas: ${students[2][i]}`)
 }
