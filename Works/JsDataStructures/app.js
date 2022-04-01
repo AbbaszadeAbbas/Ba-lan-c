@@ -20,7 +20,7 @@
 //   console.log(x/y)
 // }
 
-//  // 1 telebenin xususiyyetleri
+//  // 1 telebenin xususiyyetleri (Variant 1)
 
 // function Abbas() {
 //   let obj = {
@@ -34,7 +34,7 @@
 
 // Abbas()
 
-// // 3 telebenin xususiyyetleri
+// // Variant 2
 
 // let adlar = ['Ehmed' , 'Memmed' , 'Sahil']
 // let soyadlar = ['Ehmedov' , 'Qasimov' , 'Haciyev']
@@ -42,7 +42,7 @@
 
 // console.log(telebeler[0][0] , telebeler[1][0])
 
-// // telebeler
+// // Variant 3
 
 // let telebe01 = {
 //   ad: "Ayxan" ,
@@ -62,3 +62,11 @@
 // let telebeler = [telebe01 , telebe02 , telebe03]
 
 // console.log(telebeler[0])
+
+// // Variant 4
+let telebeler = {
+  adlar:['Ehmed' , 'Memmed' , 'Sahil'] ,
+  soyadlar:['Ehmedov' , 'Qasimov' , 'Haciyev ']
+}
+
+console.log(telebeler["adlar"][2] , telebeler["soyadlar"][2]) 
