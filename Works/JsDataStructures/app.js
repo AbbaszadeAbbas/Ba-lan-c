@@ -81,11 +81,25 @@
 // console.log(`${telebeler[0][2]} \ ${telebeler[1][2]}`)
 
 // // tv01
-let names = ['Eli' , 'Ehmed' , 'Sara' , 'Sevda' , 'Qurban']
-let surnames = ['Piriyev' , 'Memmedov' , 'Qurbanova' , "Ezizova" , "Sadiqzade"]
-let ages = [23 , 34 , 40 , 58 , 60]
-let students = [names, surnames,ages]
+// let names = ['Eli', 'Ehmed', 'Sara', 'Sevda', 'Qurban'];
+// let surnames = ['Piriyev', 'Memmedov', 'Qurbanova', 'Ezizova', 'Sadiqzade'];
+// let ages = [23, 34, 40, 58, 60];
+// let students = [names, surnames, ages]
 
-for (i=0; i<5;i++){
-  console.log(`Ad: ${students[0][i]} \,Soyad: ${students[1][i]} \,Yas: ${students[2][i]}`)
+// for (i=0; i<5;i++){
+//   console.log(`Ad: ${students[0][i]} \,Soyad: ${students[1][i]} \,Yas: ${students[2][i]}`)
+// }
+
+// // tv02
+let names = ['Eli', 'Ehmed', 'Sara', 'Sevda', 'Qurban'];
+let surnames = ['Piriyev', 'Memmedov', 'Qurbanova', 'Ezizova', 'Sadiqzade'];
+let ages = [23, 34, 40, 58, 60];
+let students = {
+    adlar: names,
+    soyadlar: surnames,
+    yaslar: ages
+}
+
+for (i=0 ; i<5 ; i++) {
+  console.log(`Ad: ${students["adlar"][i]} , Soyad: ${students["soyadlar"][i]} , Yas: ${students["yaslar"][i]}`)
 }
