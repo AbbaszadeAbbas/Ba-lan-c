@@ -278,7 +278,7 @@ Yuxaridaki 3 ifade eyni menani kesb edir. Her ucunden anonim funksiya yaratmaq u
 
 1. V8-engine - Javascript-i maşın tərəfindən oxuna bilən koda çevirməyə kömək edir. Buna görə V8-engine kodunuzu icra etmək üçün çox vacib bir şeydir.
 
-2. AST -  Abstract Syntax Tree.Kompüter elmində abstrakt sintaksis ağacı (AST) və ya sadəcə sintaksis ağacı rəsmi dildə yazılmış mətnin (çox vaxt mənbə kodu) abstrakt sintaktik strukturunun ağac təsviridir. Ağacın hər qovşağı mətndə baş verən konstruksiyanı bildirir.
+2. AST -  Abstract Syntax Tree.Kompüter elmində abstrakt sintaksis ağacı (AST) və ya sadəcə sintaksis ağacı rəsmi dildə yazılmış mətnin (çox vaxt mənbə kodu) abstrakt sintaktik strukturunun ağac təsviridir. Ağacın hər qovşağı mətndə baş verən konstruksiyanı bildirir.AST js terefinden yazilmis her ifadenin ne menaya geldiyine baxir ve onun javascriptin sintaksina uygun olub olmadigina baxir.
 
 # Sual 4:*_index->Value vs key->value fərqləri nədir?_*
 
