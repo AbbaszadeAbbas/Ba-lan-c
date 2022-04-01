@@ -81,10 +81,11 @@
 // console.log(`${telebeler[0][2]} \ ${telebeler[1][2]}`)
 
 // // Variant 6
-// let adlar = ['Ehmed' , 'Memmed' , 'Sahil']
-// let soyadlar = ['Ehmedov' , 'Qasimov' , 'Haciyev']
-// let telebeler = [adlar, soyadlar]
+let adlar = ['Ehmed' , 'Memmed' , 'Sahil']
+let soyadlar = ['Ehmedov' , 'Qasimov' , 'Haciyev']
+let yaslar = [23 , 31 , 40]
+let telebeler = [adlar, soyadlar,yaslar]
 
-// for (i=0; i<3;i++){
-//   console.log(`${telebeler[0][i]} \ ${telebeler[1][i]}`)
-// }
+for (i=0; i<3;i++){
+  console.log(`${telebeler[0][i]} \ ${telebeler[1][i]} \ ${telebeler[2][i]}`)
+}
