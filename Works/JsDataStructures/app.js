@@ -64,9 +64,18 @@
 // console.log(telebeler[0])
 
 // // Variant 4
-let telebeler = {
-  adlar:['Ehmed' , 'Memmed' , 'Sahil'] ,
-  soyadlar:['Ehmedov' , 'Qasimov' , 'Haciyev ']
-}
+// let telebeler = {
+//   adlar:['Ehmed' , 'Memmed' , 'Sahil'] ,
+//   soyadlar:['Ehmedov' , 'Qasimov' , 'Haciyev ']
+// }
 
-console.log(telebeler["adlar"][2] , telebeler["soyadlar"][2]) 
+// console.log(telebeler["adlar"][2] , telebeler["soyadlar"][2]) 
+
+// // Variant 5 
+// let adlar = ['Ehmed' , 'Memmed' , 'Sahil']
+// let soyadlar = ['Ehmedov' , 'Qasimov' , 'Haciyev']
+// let telebeler = [adlar, soyadlar]
+
+// console.log(`${telebeler[0][0]} \ ${telebeler[1][0]}`)
+// console.log(`${telebeler[0][1]} \ ${telebeler[1][1]}`)
+// console.log(`${telebeler[0][2]} \ ${telebeler[1][2]}`)
