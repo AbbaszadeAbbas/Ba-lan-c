@@ -85,6 +85,13 @@
 
 //                                                TASKS
 
+// // recursion
+// (function() {
+//   let salam = 'salam'
+//   let result = salam.repeat(50)
+//   console.log(result)
+// })()
+
 
 // // tv01
 // let names = ['Eli', 'Ehmed', 'Sara', 'Sevda', 'Qurban'];
@@ -108,4 +115,31 @@
 
 // for (i=0 ; i<5 ; i++) {
 //   console.log(`Ad: ${students["adlar"][i]} , Soyad: ${students["soyadlar"][i]} , Yas: ${students["yaslar"][i]}`)
+// }
+
+// // tv03
+// let students = [{
+//     ad: 'Eli',
+//     soyad: 'Piriyev',
+//     yas: 23
+// }, {
+//     ad: 'Ehmed',
+//     soyad: 'Memmedov',
+//     yas: 34
+// }, {
+//     ad: 'Sara',
+//     soyad: 'Qurbanova',
+//     yas: 40
+// }, {
+//     ad: 'Sevda',
+//     soyad: 'Ezizova',
+//     yas: 58
+// }, {
+//     ad: 'Qurban',
+//     soyad: 'Sadiqzade',
+//     yas: 60
+// }]
+
+// for (i=0 ; i<5 ; i++) {
+//   console.log(`Ad: ${students[i]["ad"]} , Soyad: ${students[i]["soyad"]} , Yas: ${students[i]["yas"]}`)
 // }
