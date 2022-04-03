@@ -153,3 +153,11 @@
 // }
 // })(1,100)
 
+// const newObj = {
+//   ad: "Memmed",
+//   soyad: "Hesenov",
+//   showData: function() {
+//     console.log(this.ad)
+//     console.log(obj.ad)
+//   }
+// }
