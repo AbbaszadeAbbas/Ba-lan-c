@@ -143,3 +143,13 @@
 // for (i=0 ; i<5 ; i++) {
 //   console.log(`Ad: ${students[i]["ad"]} , Soyad: ${students[i]["soyad"]} , Yas: ${students[i]["yas"]}`)
 // }
+
+// // Anonimde 1-100
+// (function count(start, end){
+// console.log(start);
+
+// if(start<end) {
+//     count(start+1,end)
+// }
+// })(1,100)
+
