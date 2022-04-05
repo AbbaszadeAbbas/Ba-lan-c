@@ -4,7 +4,7 @@
 //   console.log("Salam")
 // })()
 
-//  // Calculator 
+//  // Calculator
 
 // let x = 5;
 // let y = 6;
@@ -24,13 +24,14 @@
 
 // function Abbas() {
 //   let obj = {
-//     Ad: "Abbas" ,
-//     Soyad: "Abbaszade" ,
-//     E_mail: "mr.abbaszada86@gmail.com" ,
-//     Dogum_tarixi: "14 aprel 2008" ,
+    // Ad: "Abbas" ,
+    // Soyad: "Abbaszade" ,
+    // E_mail: "mr.abbaszada86@gmail.com" ,
+    // Dogum_tarixi: "14 aprel 2008" ,
 //     }
 //     console.log(obj)
 // }
+
 
 // Abbas()
 
@@ -69,9 +70,9 @@
 //   soyadlar:['Ehmedov' , 'Qasimov' , 'Haciyev ']
 // }
 
-// console.log(telebeler["adlar"][2] , telebeler["soyadlar"][2]) 
+// console.log(telebeler["adlar"][2] , telebeler["soyadlar"][2])
 
-// // Variant 5 
+// // Variant 5
 // let adlar = ['Ehmed' , 'Memmed' , 'Sahil']
 // let soyadlar = ['Ehmedov' , 'Qasimov' , 'Haciyev']
 // let telebeler = [adlar, soyadlar]
@@ -161,3 +162,5 @@
 //     console.log(obj.ad)
 //   }
 // }
+
+console.log('Abbas');
