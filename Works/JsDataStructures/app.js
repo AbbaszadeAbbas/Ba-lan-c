@@ -155,7 +155,7 @@
 // }
 
 // function GetAllData(_arr){
-//   for(i=0 ; i<_arr.length ; i++){
+//   for(i = 0 ; i < _arr.length ; i++){
 //     console.log(GetData(_arr[i]))
 //   }
 // }
