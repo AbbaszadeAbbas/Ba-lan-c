@@ -4,7 +4,7 @@
 //   console.log("Salam")
 // })()
 
-//  // Calculator 
+//  // Calculator
 
 // let x = 5;
 // let y = 6;
@@ -69,9 +69,9 @@
 //   soyadlar:['Ehmedov' , 'Qasimov' , 'Haciyev ']
 // }
 
-// console.log(telebeler["adlar"][2] , telebeler["soyadlar"][2]) 
+// console.log(telebeler["adlar"][2] , telebeler["soyadlar"][2])
 
-// // Variant 5 
+// // Variant 5
 // let adlar = ['Ehmed' , 'Memmed' , 'Sahil']
 // let soyadlar = ['Ehmedov' , 'Qasimov' , 'Haciyev']
 // let telebeler = [adlar, soyadlar]
@@ -94,6 +94,8 @@
 
 
 // // tv01
+
+
 // let names = ['Eli', 'Ehmed', 'Sara', 'Sevda', 'Qurban'];
 // let surnames = ['Piriyev', 'Memmedov', 'Qurbanova', 'Ezizova', 'Sadiqzade'];
 // let ages = [23, 34, 40, 58, 60];
@@ -104,6 +106,8 @@
 // }
 
 // // tv02
+
+
 // let names = ['Eli', 'Ehmed', 'Sara', 'Sevda', 'Qurban'];
 // let surnames = ['Piriyev', 'Memmedov', 'Qurbanova', 'Ezizova', 'Sadiqzade'];
 // let ages = [23, 34, 40, 58, 60];
@@ -118,46 +122,42 @@
 // }
 
 // // tv03
+
+
 // let students = [{
-//     ad: 'Eli',
-//     soyad: 'Piriyev',
-//     yas: 23
+//   ad: 'Eli',
+//   soyad: 'Piriyev',
+//   yas: 23
 // }, {
-//     ad: 'Ehmed',
-//     soyad: 'Memmedov',
-//     yas: 34
+//   ad: 'Ehmed',
+//   soyad: 'Memmedov',
+//   yas: 34
 // }, {
-//     ad: 'Sara',
-//     soyad: 'Qurbanova',
-//     yas: 40
+//   ad: 'Sara',
+//   soyad: 'Qurbanova',
+//   yas: 40
 // }, {
-//     ad: 'Sevda',
-//     soyad: 'Ezizova',
-//     yas: 58
+//   ad: 'Sevda',
+//   soyad: 'Ezizova',
+//   yas: 58
 // }, {
-//     ad: 'Qurban',
-//     soyad: 'Sadiqzade',
-//     yas: 60
+//   ad: 'Qurban',
+//   soyad: 'Sadiqzade',
+//   yas: 60
 // }]
 
-// for (i=0 ; i<5 ; i++) {
-//   console.log(`Ad: ${students[i]["ad"]} , Soyad: ${students[i]["soyad"]} , Yas: ${students[i]["yas"]}`)
+// function GetData(_obj) {
+//   _objData = ""
+//   for(let _key in _obj){
+//     _objData += `${_key}: ${_obj[_key]}, `
+//   }
+//   return _objData
 // }
 
-// // Anonimde 1-100
-// (function count(start, end){
-// console.log(start);
-
-// if(start<end) {
-//     count(start+1,end)
-// }
-// })(1,100)
-
-// const newObj = {
-//   ad: "Memmed",
-//   soyad: "Hesenov",
-//   showData: function() {
-//     console.log(this.ad)
-//     console.log(obj.ad)
+// function GetAllData(_arr){
+//   for(i=0 ; i<_arr.length ; i++){
+//     console.log(GetData(_arr[i]))
 //   }
 // }
+
+// GetAllData(students)
