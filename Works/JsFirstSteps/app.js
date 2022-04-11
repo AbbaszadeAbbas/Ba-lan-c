@@ -2,7 +2,7 @@
 
 
 // // Calculator Start
-// let x = 5
+// let x = 11
 // let y = 6
 
 // let operator = '-'
@@ -116,12 +116,12 @@
 
 // function ToplamMaas() {
 // 	let tMaas = 8000;
-// 	return tMaas	
+// 	return tMaas
 // }
 
 // function EmekdaslarinSayi() {
 // 	let eSay = 10;
-// 	return eSay 
+// 	return eSay
 // }
 
 // function OrtalamaMaasHesabla() {
