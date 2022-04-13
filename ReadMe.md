@@ -1,1 +1,1 @@
-.
+[JavaScript Scopes](https://medium.com/@mr.abbaszada86/javascriptd%C9%99-scope-lar-98cb1581fde)

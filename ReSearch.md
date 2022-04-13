@@ -60,7 +60,7 @@ imkanlar verən alqoritmik dildir.
 --VAR--(deyisdirilebilendir)
 1) hem global hemde function scope dur. Bu o demekdirki icerisinde olmadigi bir boxda islene biler
 (Meselen: var msg = "Hello world"
-           function test() { 
+           function test() {
                console.log(msg)
            } )
 
@@ -70,10 +70,10 @@ imkanlar verən alqoritmik dildir.
 
     || * _evezine_*  ||
 
-    msg  = "hello world"  
+    msg  = "hello world"
     console.log(msg)    var msg"
 
-3)JavaScriptde 2015-ci ile qeder yalniz    var     istifade olunurdu. 
+3)JavaScriptde 2015-ci ile qeder yalniz    var     istifade olunurdu.
 
 4)JavaScript var -i yuxari cekir(yeni eger kodda siz asagida yazmisinsa o onu yuxarida yazilibmis kimi oxuyur mehs ele buna gorede onun yazildigi yerin ferqi yoxdur ister console.log - dan evvel ve ya sonra)
 
@@ -81,13 +81,13 @@ imkanlar verən alqoritmik dildir.
 
 --LET--(deyisdirilebilendir)
 1) var-dan ferqli olaraq block scope dur(yeni ki yalniz yazildigi yere aid ola bilir)
-2) siralamani duzgun yazmaq serti ile let i de parcalamaq olar 
+2) siralamani duzgun yazmaq serti ile let i de parcalamaq olar
 (Meselen:
- let msg = "hello world"  console.log(msg)    
+ let msg = "hello world"  console.log(msg)
 
 || *_evezine_*||
 
-let msg 
+let msg
 msg = "hello world"
 console.log(msg)
 )
@@ -97,7 +97,7 @@ console.log(msg)
 1)deyismez oldugu ucun :
     a)dovrlerde istifade olnmur;
     b)yalniz yaziligi hisseye aid olur;
-    c)parcalana bilmir.  
+    c)parcalana bilmir.
 2)Block scope -dur(var -dan ferqli olaraq)
 
 # Sual 5: *_Proqramçı olaraq bir proqram yazarkən işi görmə addımlarımız necə olmalıdır?_*
@@ -241,7 +241,7 @@ Deklarativ dilləri o halda istifadə etmək yaxşıdır ki, “verilənlər pro
 
 # Sual 3.5:*_Scope və hoisting ifadələri arasında fərq nədir?_*
 
-*2 Aprel* 
+*2 Aprel*
 # Sual 1.1:*_Void ve return function nedir?_*
 
 1) Void - Əgər metodumuzu əməliyyatı yerinə yetirməyə hazırlayırıqsa, lakin dəyəri qaytarmırıqsa, biz void açar sözündən istifadə edirik. Məsələn, verilənlər bazasına çıxış və ya qoşulma kimi əməliyyatlar etibarsız elan edilə bilər.
@@ -272,7 +272,7 @@ Function scope ve block scope ikisi birlikde Local scopa aiddir.
 2) Function literals
 3) Lambda expression
 
-Yuxaridaki 3 ifade eyni menani kesb edir. Her ucunden anonim funksiya yaratmaq ucun istifade olunur. 
+Yuxaridaki 3 ifade eyni menani kesb edir. Her ucunden anonim funksiya yaratmaq ucun istifade olunur.
 
 # Sual 3.2: *_V8-engine parser and AST._*
 
