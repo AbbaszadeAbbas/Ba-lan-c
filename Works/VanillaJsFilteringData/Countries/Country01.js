@@ -1,6 +1,6 @@
 "use strict";
 
-    let countries = {
+let countries = {
         Afghanistan: [
             "Herat",
             "Kabul",
@@ -84085,5 +84085,4 @@ function CountryNamesList(_arr) {
     let _objData = Keys()
     return _objData
 }
-
-console.log(CountryNamesList(countries))
+CountryNamesList(countries)
