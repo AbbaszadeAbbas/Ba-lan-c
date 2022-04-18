@@ -84096,14 +84096,13 @@ let car = {
   ]
 }
 
-
-function CountryNamesFirstLetterList(_arr) {
-  function Keys() {
-      for(let _key in _arr){
-          console.log(`${_key[0]}`)
-      }
-  }
-  let _objData = Keys()
-  return _objData
-}
-CountryNamesFirstLetterList(countries)
+// function CountryNamesFirstLetterList(_arr) {
+//   function Keys() {
+//       for(let _key in _arr){
+//           console.log(`${_key[0]}`)
+//       }
+//   }
+//   let _objData = Keys()
+//   return _objData
+// }
+// CountryNamesFirstLetterList(countries)
