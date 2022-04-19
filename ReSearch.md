@@ -291,3 +291,20 @@ For - Esasen mueyyen sayda olan dovrlerin tekrarlanmasi ucun istifade olunur.
 For in  - Obyektin xassələri üzərində təkrarlanır. Hər bir xassə üçün kod blokundakı kod yerinə yetirilir.
 
 While - Vəziyyətin qiymətləndirilməsi ilə başlayır. Şərt doğru olaraq qiymətləndirilirsə, kod blokundakı kod yerinə yetirilir. Şərt yalnış olaraq qiymətləndirilirsə, kod blokundakı kod yerinə yetirilmir və dövrə başa çatır.
+
+
+*19 aprel*
+
+# Sual 1:*_JavaScript nədir və necə işləyir?_*
+
+1. Javascipt -  web sehifeleri , serveleri hetta oyunlari dinamiklesdirmek ucun istifade olunan proqramlasdirma dilidir.JavaScript Obyekt Yönümlü Proqramlaşdırma (OYP) dilidir.
+
+2. Javascript mueyyen ` engine ` - lerin komeyi ile isleyir. Meselen:
+                                                                Google Chrome - V8 Engine
+                                                                Microsoft Edge - Chakra
+                                                                Safari - JavaScript Core
+                                                                Firefox - Spidermonkey
+
+# Sual 12:*_Javascripti kim yaradib?_*
+
+1995-ci ilə Brendan Eyx tərəfindən yazılmışdır.1995-ci ildə Netscape şirkəti tərəfindən, Sun şirkətinin dəstəyi ilə hazırlanmış NN24-də istifadə olunan AD bundan sonra JavaScript adlandırılması ilə açıqlanma verildi. Buna qədər isə bu alqoritmik dil LiveScript adlandırılırdı. Bu gözlənilməz addım kifayət qədər problemlər yaratdı. Beləki, Sun şirkətinin JAVA AD-nə heç bir dəxli olmayan JavaScript-i JAVA-nın alt-çoxluğu kimi qəbul edənlərin sayı çoxaldı.
