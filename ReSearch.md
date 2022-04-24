@@ -305,6 +305,37 @@ While - Vəziyyətin qiymətləndirilməsi ilə başlayır. Şərt doğru olaraq
                                                                 Safari - JavaScript Core
                                                                 Firefox - Spidermonkey
 
+
+
+# Sual 2:*_DOM Traversing nədir? Nümunələr ilə izah edin._*
+1.  DOM (Document Object Model) - Sened Obyekt Modeli HTML, XHTML, XML kimi senedlerin script dilleri ile elaqelendirile bilmesi ucun tekminlesdirilmis bir interfeysdir.
+
+2. Meselen:
+
+<!DOCTYPE html>
+<html>
+<head>
+ <style type="text/css">
+  div { border:1px solid #ddd; margin: 20px; padding: 20px; }
+ </style>
+ <script type="text/javascript">
+  function changeColor(Obj){
+   document.getElementById("content").style.border = '1px solid red'; //burda hemin `content` id li element secilir
+   if (Obj) {
+    document.getElementById("content").style.border = '1px solid green';//burda hemin `content` id li element secilir
+   } else {
+    document.getElementById("content").style.border = '1px solid blue';//burda hemin `content` id li element secilir
+   }
+  }
+ </script>
+</head>
+<body>
+<div id="content" onmouseover="changeColor()" onclick="changeColor('reset')">DOM Örneği</div> <!-- burda id-si  `content` olan div teyin olunur.-->
+</body>
+</html>
+
+
+
 # Sual 12:*_Javascripti kim yaradib?_*
 
 1995-ci ilə Brendan Eyx tərəfindən yazılmışdır.1995-ci ildə Netscape şirkəti tərəfindən, Sun şirkətinin dəstəyi ilə hazırlanmış NN24-də istifadə olunan AD bundan sonra JavaScript adlandırılması ilə açıqlanma verildi. Buna qədər isə bu alqoritmik dil LiveScript adlandırılırdı. Bu gözlənilməz addım kifayət qədər problemlər yaratdı. Beləki, Sun şirkətinin JAVA AD-nə heç bir dəxli olmayan JavaScript-i JAVA-nın alt-çoxluğu kimi qəbul edənlərin sayı çoxaldı.
