@@ -99,8 +99,10 @@
 
 
 
-function Collect(a,b){
-  if(1 <= a,b && a,b > 1000){
-    console.log(a,b)
-  }
-}
+// function Collect(a,b){
+//   if(1 <= a,b && a,b > 1000){
+//     console.log(a,b)
+//   }
+// }
+// Collect(2,3)
+
