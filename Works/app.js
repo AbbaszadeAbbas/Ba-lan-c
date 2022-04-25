@@ -82,7 +82,6 @@
 // 	let y = (1 + num) * num / 2
 // 	return y
 // }
-
 // console.log(addUp(5));
 
 // let first = (["Google", "Apple", "Microsoft"]);
@@ -98,7 +97,6 @@
 // let all = [SortElements(first),SortElements(seckond),SortElements(third)]
 
 
-
 // function Collect(a,b){
 //   if(1 <= a,b && a,b > 1000){
 //     console.log(a,b)
@@ -106,3 +104,57 @@
 // }
 // Collect(2,3)
 
+// let ii = [1,2,3,4,5,6,10]
+
+// function Collect(_arr) {
+//   let sum = 0;
+//   for(let i = 0; i<_arr.length;i++){
+//     sum +=_arr[i]
+//   }
+//   return sum
+// }
+// console.log(Collect(ii));
+
+// let hayatbazentatlidir = [1000001,1000002,1000003,1000004]
+
+// function Sum(_arr){
+//   let sum = 0;
+//   for(let i = 0 ; i<_arr.length;i++){
+//     sum+=_arr[i]
+//   }
+//   return sum
+// }
+
+// console.log(Sum(hayatbazentatlidir));
+
+// let sum1 = [1,2,8];
+// let sum2 = [4,5,6];
+// let sum3 = [7,8,10];
+
+// function SUMS(_arr1,_arr2,_arr3){
+//   let SUM1 = _arr1[0] + _arr2[1] + _arr3[2];
+//   let SUM2 = _arr1[2] + _arr2[1] + _arr3[0];
+//   if(SUM1 - SUM2 > 0){
+//     console.log(SUM1 - SUM2);
+//   }else{
+//     console.log(SUM2 - SUM1)
+//   }
+// }
+// SUMS(sum1,sum2,sum3)
+
+
+let sum = [1, 2, 3,
+           4, 5, 6,
+           7, 8, 9]
+
+
+function diagonalDifference(arr) {
+  let first = arr[0] + arr[4] + arr[8]
+  let seckond = arr[2] + arr[4] + arr[6]
+  if(first - seckond >= 0){
+    console.log(first-seckond);
+  }else {
+    console.log(seckond-first);
+  }
+}
+diagonalDifference(sum)
