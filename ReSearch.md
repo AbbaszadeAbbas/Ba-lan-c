@@ -339,3 +339,13 @@ While - Vəziyyətin qiymətləndirilməsi ilə başlayır. Şərt doğru olaraq
 # Sual 12:*_Javascripti kim yaradib?_*
 
 1995-ci ilə Brendan Eyx tərəfindən yazılmışdır.1995-ci ildə Netscape şirkəti tərəfindən, Sun şirkətinin dəstəyi ilə hazırlanmış NN24-də istifadə olunan AD bundan sonra JavaScript adlandırılması ilə açıqlanma verildi. Buna qədər isə bu alqoritmik dil LiveScript adlandırılırdı. Bu gözlənilməz addım kifayət qədər problemlər yaratdı. Beləki, Sun şirkətinin JAVA AD-nə heç bir dəxli olmayan JavaScript-i JAVA-nın alt-çoxluğu kimi qəbul edənlərin sayı çoxaldı.
+
+*Day28*
+
+# Sual 1:*_Document Object Model-də Node və Element arasındakı fərqlər nələrdir?_*
+
+1. Node - DOM da istenilen nov obyektin adidir.
+
+2. Element - Node un xususi bir novudur.
+
+__Node ve Elementin esas ferqi Elementin HTML ile islene bilmesindir(Meselen:id ve ya class kimi )__
