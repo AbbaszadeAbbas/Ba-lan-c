@@ -349,3 +349,5 @@ While - Vəziyyətin qiymətləndirilməsi ilə başlayır. Şərt doğru olaraq
 2. Element - Node un xususi bir novudur.
 
 __Node ve Elementin esas ferqi Elementin HTML ile islene bilmesindir(Meselen:id ve ya class kimi )__
+
+# Sual 2:*_nextSibling və nextElementSibling metodları nə işə yarayır və fərqləri nələrdir?_*

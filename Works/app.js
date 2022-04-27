@@ -143,18 +143,23 @@
 // SUMS(sum1,sum2,sum3)
 
 
-let sum = [1, 2, 3,
-           4, 5, 6,
-           7, 8, 9]
+// let sum = [100, 2, 69,
+//            4, 5, 6,
+//            7, 8, 10
+// ]
 
 
-function diagonalDifference(arr) {
-  let first = arr[0] + arr[4] + arr[8]
-  let seckond = arr[2] + arr[4] + arr[6]
-  if(first - seckond >= 0){
-    console.log(first-seckond);
-  }else {
-    console.log(seckond-first);
-  }
-}
-diagonalDifference(sum)
+// function diagonalDifference(arr) {
+//   let all01 = arr[0] + arr[4] + arr[8];
+//   let all02 = arr[2] + arr[4] + arr[6];
+//   let min1 = all01 - all02;
+//   let min2 = all02 - all01
+
+//   if(min1>0){
+//       return min1
+//   }else{
+//       return min2
+//   }
+// }
+
+// console.log(diagonalDifference(sum));
