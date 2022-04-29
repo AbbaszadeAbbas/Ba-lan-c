@@ -1,0 +1,29 @@
+.common{
+  border: 2px solid red;
+  margin: 100px auto;
+  width: 1200px;
+  height: 600px;
+  position: relative;
+  display: flex;
+  /* overflow: hidden; */
+}
+
+.slides{
+  width: 1200px;
+  height: inherit;
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide{
+  width: inherit;
+  height: inherit;
+}
+
+.slide img{
+  width: inherit;
+  height: inherit;
+  position: inherit;
+}
