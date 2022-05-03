@@ -19,11 +19,7 @@ let b = "#";
 // ]
 
 function staircase(n) {
-  let i = 0;
-  let j = n;
-  for(i<n;i++ && j<n;j--){
-    
-  }
+  
 }
 
 staircase(2)

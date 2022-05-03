@@ -162,4 +162,4 @@
 //   }
 // }
 
-// console.log(diagonalDifference(sum));
+// console.log(diagonalDifference(sum))
