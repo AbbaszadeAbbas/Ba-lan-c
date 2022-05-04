@@ -1,0 +1,171 @@
+p {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #000;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin: 0;
+  background-color: #fff;
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common {
+  /* border: 1px solid red; */
+  width: 68%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 41%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.heading {
+  /* border: 1px solid #000; */
+  height: 80%;
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading-top {
+  /* border: 1px solid red; */
+  height: 21%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-top p {
+  font-weight: 900;
+  font-size: 21px;
+  color: #595959;
+}
+
+.heading-middle {
+  /* border: 1px solid green; */
+  height: 33%;
+  text-align: center;
+  line-height: 18px;
+}
+
+.heading-middle p {
+  font-size: 10px;
+  color: #808080;
+  width: 470px;
+}
+
+.heading-bottom {
+  /* border: 1px solid blue; */
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-bottom-button{
+  /* border:1px solid blue; */
+  width: 48%;
+  height: 35px;
+  display: flex;
+}
+
+.button-left,.button-right{
+  border: 1px solid #2596be;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-left,.button-right p{
+  font-size: 12px;
+  font-weight: 500;
+  color:#cacaca ;
+}
+
+.bottom {
+  border: 1px solid #6ea4cd;
+  width: 100%;
+  height: 58%;
+  display: flex;
+}
+
+.bot{
+  border: 1px solid #000;
+  width: 25%;
+}
+
+.bot-top{
+  /* border: 1px solid black; */
+  height: 26%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bot-top p{
+  font-family: Roboto;
+  font-weight: 900;
+  color: #575757;
+}
+
+.bot-top2{
+  /* border: 1px solid black; */
+  height: 24%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bot-top2 p {
+  color: #048df9;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+.bot-top2 div b{
+  font-family: Roboto;
+  color: #9e9e9e;
+  font-size: 10px;
+}
+
+.bot-mid{
+  border: 1px solid black;
+  height: 24%;
+  width: 100%;
+}
+
+.bot-mid-sen{
+  
+}
+
+.bot-end{
+  border: 1px solid black;
+  height: 25%;
+  width: 100%;
+}
