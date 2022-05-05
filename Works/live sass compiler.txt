@@ -1,0 +1,158 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.exe": "default",
+    "*.lnk": "default",
+    "*.woff2": "default",
+    "*.zip": "default",
+    "*.dll": "default",
+    "*.db": "default"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "python.formatting.provider": "autopep8",
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontSize": 15,
+  "editor.cursorBlinking": "smooth",
+  "codesnap.backgroundColor": "transparent",
+  "cssPeek.peekFromLanguages": [
+    "html",
+    "django-html",
+    "laravel-blade",
+    "handlebars",
+    "php",
+    "twig",
+    "md",
+    "nunjucks",
+    "javascript",
+    "javascriptreact",
+    "erb",
+    "typescript",
+    "typescriptreact",
+    "HTML (Eex)",
+    "html-eex",
+    "ejs",
+    "css"
+  ],
+  // "editor.fontFamily": "\"\"",
+  "liveServer.settings.donotVerifyTags": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "liveSassCompile.settings.formats": [
+  
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/.././css"
+    }
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "liveSassCompile.settings.generateMap": false,
+  "codesnap.containerPadding": "0",
+  "code-runner.defaultLanguage": "JavaScript",
+  "code-runner.temporaryFileName": "app",
+  "code-runner.runInTerminal": true,
+  "files.associations": {
+    "*.js": "javascript",
+    "*.py": "python",
+    "*.md": "markdown",
+    "*.html": "html"
+  },
+  "grunt.autoDetect": "on",
+  "explorer.confirmDelete": false,
+  "open-in-browser.default": "chrome",
+  "previewServer.browsers": ["chrome"],
+  "sync.gist": "431c302a3077b7a34bc742deade06d18",
+  "sass.format.debug": true,
+  "git.autofetch": true,
+  "vscodeGoogleTranslate.preferredLanguage": "English",
+  "workbench.colorTheme": "SHER Dark Theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "reactSnippets.settings.prettierEnabled": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": false,
+    "html": false
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.renderWhitespace": "none",
+  "explorer.compactFolders": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.minimap.enabled": false,
+  "json.schemas": [],
+  "editor.codeActionsOnSave": {},
+  "files.autoSave": "afterDelay"
+}
