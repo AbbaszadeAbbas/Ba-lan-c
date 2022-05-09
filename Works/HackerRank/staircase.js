@@ -18,8 +18,14 @@ let b = "#";
 //   console.log(cem6)
 // ]
 
-function staircase(n) {
-  
-}
+// function Foo(_num){
+//   let a = " ";
+//   let b = "#";
+//   let i = 0;
+//   let j = _num;
+//   for(i<_num;i++;){
+//     console.log(i);
+//   }
+// }
 
-staircase(2)
+// Foo(5)
