@@ -16,37 +16,57 @@
       <button class="buy_now"><b>Buy now</b></button>
     </div>
   </section>
-  <section class="box">
-    <div class="blue-square square"></div>
-    <div class="red-square square"></div>
-    <div class="box-inside">
-      <header class="box-inside-head"><b>Login Here</b></header>
-      <div class="user-name">
-        <p class="ins">Username</p>
-        <input class="input" type="email" placeholder="Email" onclick="borderBlue()">
+  <section class="body-part">
+    <div class="box">
+      <div class="blue-square square"></div>
+      <div class="red-square square"></div>
+      <div style="margin-bottom: 1155px;" class="box-inside">
+        <div class="forg-head"><b>Forgot Password</b></div>
+        <p class="forg-user">Email</p>
+        <input class="forg-input" type="text" placeholder="Email" id="forgotEmail">
+        <button style="margin:25px 0 10px 0;" class="login-button"><b>Send Email</b></button>
+        <a href="" class="forg-a">Log In</a>
       </div>
-      <div class="password">
-        <p class="ins">Password</p>
-        <input class="input" type="password" placeholder="Password">
-      </div>
-      <div class="check">
-        <div class="remember">
-          <input style="width: 20px; height:20px;" type="checkbox" id="Remember Me" name="Remember Me" value="Me">
-          <label for="Remember Me"><span class="Remember-Me">Remember Me</span></label>
-          <a href="">Forgot Password?</a>
+      <div class="box-inside">
+        <header class="box-inside-head"><b>Login Here</b></header>
+        <div class="user-name">
+          <p class="ins">Username</p>
+          <input class="input" type="email" placeholder="Email" onclick="borderBlue()">
+        </div>
+        <div class="password">
+          <p class="ins">Password</p>
+          <input class="input" type="password" placeholder="Password">
+        </div>
+        <div class="check">
+          <div class="remember">
+            <input style="width: 20px; height:20px;" type="checkbox" id="Remember Me" name="Remember Me" value="Me">
+            <label for="Remember Me"><span class="Remember-Me">Remember Me</span></label>
+            <a id="yuxari" href="" onclick="Yuxari()">Forgot Password?</a>
+          </div>
+        </div>
+        <button class="login-button"><b>Log In</b></button>
+        <div class="social">
+          <button style="background: #4285F4;"><b>Google</b></button>
+          <button style="background: #3b5998;"><b>Facebook</b></button>
+        </div>
+        <div style="margin-top:10px;" class="sign-up">
+          <a id="asagi" href="" onclick="Asagi()">Sign Up</a>
         </div>
       </div>
-      <button class="login-button"><b>Log In</b></button>
-      <div class="social">
-        <button style="background: #4285F4;"><b>Google</b></button>
-        <button style="background: #3b5998;"><b>Facebook</b></button>
-      </div>
-      <div style="margin-top:10px;" class="sign-up">
-        <a href="">Sign Up</a>
-      </div>
+      <div style="margin-top: 1155px;" class="box-inside">
+        <div class="stp-head"><p>Sign Up Here</p></div>
+        <p class="stp-p">Full Name</p>
+        <input class="stp-input" type="text" placeholder="Full Name" id="forgotEmail">
+        <p class="stp-p">Email</p>
+        <input class="stp-input" type="text" placeholder="Email" id="forgotEmail">
+        <p class="stp-p">Password</p>
+        <input class="stp-input" type="text" placeholder="Password" id="forgotEmail">
+        <p class="stp-p">Confirm Password</p>
+        <input class="stp-input" type="text" placeholder="Confirm Password" id="forgotEmail">
+        <button style="margin:25px 0 10px 0;" class="login-button"><b>Sign Up</b></button>
+        <a href="" class="forg-a">Log In</a>
     </div>
   </section>
-
   <script src="./js/app.js"></script>
 </body>
 
