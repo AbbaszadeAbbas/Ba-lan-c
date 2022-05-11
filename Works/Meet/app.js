@@ -1,10 +1,10 @@
-
 function mailYoxlama() {}
 const input = document.querySelector(".page-card-infologin").children;
 for (let elem of input) {
   elem.classList.remove("animate__animated");
   elem.classList.remove("animate__shakeX");
 }
+
 function logInYoxlama() {
   for (let elem of input) {
     if (elem.value == "") {
@@ -17,7 +17,7 @@ function logInYoxlama() {
     // elem.classList.remove("animate__shakeX")
   }
 
-  if(input = 0){
+  if (input = 0) {
     reloadWindow()
   }
 }

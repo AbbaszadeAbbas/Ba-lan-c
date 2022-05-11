@@ -1,9 +1,14 @@
+let insideBox = document.querySelector(".com");
+
 function Yuxari() {
-  document.getElementsByClassName("box-inside").style.transform =
-    " translateY(580px);";
+  insideBox.style.transform = "translateY(580px)"
+
 }
 
 function Asagi() {
-  document.getElementsByClassName("box-inside").style.transform =
-    " translateY(-600px);";
+  insideBox.style.transform = "translateY(-600px)"
+}
+
+function Sifirla() {
+  insideBox.style.transform = "translateY(0px)"
 }

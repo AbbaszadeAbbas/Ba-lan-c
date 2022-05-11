@@ -33,7 +33,7 @@ body {
 }
 
 /* Body */
-.body-part{
+.body-part {
   /* border: 1px solid red; */
   width: 540px;
   height: 705px;
@@ -63,7 +63,7 @@ body {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  z-index:-1;
+  z-index: -1;
 }
 
 .blue-square {
@@ -75,35 +75,51 @@ body {
 .red-square {
   bottom: -5rem;
   right: -5rem;
-  background: linear-gradient(to right,#ec5f64,#ee6e73);
+  background: linear-gradient(to right, #ec5f64, #ee6e73);
+}
+
+.com{
+  /* border:1px solid black; */
+  width:310px;
+  /* height: max-content; */
+  /* position: absolute; */
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  /* transform: translateY(0px); */
+  transition: all .4s linear;
 }
 
 .box-inside {
   /* border: 1px solid black; */
   width: 310px;
   height: 430px;
-  position: absolute;
+  /* position: absolute; */
   transition: all .4s linear;
-  transform: translateY(0px);
+  /* transform: translateY(0px); */
 }
 
-.forg-head{
+#ins2{
+  margin: 150px 0;
+}
+
+.forg-head {
   /* border: 1px solid black; */
   width: 310px;
   height: 42px;
   margin-top: 70px;
 }
 
-.forg-email{
+.forg-email {
   /* border: 1px solid black; */
   margin: 0;
   margin-top: 40px;
 }
 
-.forg-input{
+.forg-input {
   width: 310px;
   height: 45px;
-  border:1px solid #bbb;
+  border: 1px solid #bbb;
   border-radius: 3px;
 }
 
@@ -188,6 +204,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   margin-left: 3.8rem;
+  cursor: pointer;
 }
 
 .login-button {
@@ -240,6 +257,7 @@ body {
   text-decoration: underline;
   font-size: 14px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /* Forgetten Password Start*/
@@ -294,6 +312,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 
@@ -317,6 +336,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
+
 /* Forgetten Password End */
 
 /* Sign Up Start */
@@ -348,11 +368,18 @@ body {
   margin-bottom: 5px;
 }
 
-.stp-input{
+.stp-input {
   width: 310px;
   height: 36px;
-  border:1px solid #bbb;
+  border: 1px solid #bbb;
   border-radius: 3px;
   padding-left: 7px;
 }
+
 /* Sign Up End */
+
+input:focus-visible {
+  outline: none;
+  border: 0.1rem solid blue;
+  border-radius: 0.3rem;
+}
