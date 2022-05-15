@@ -11,3 +11,8 @@
 # name = "Abbas";
 # message = "adim:{}";
 # print(message.format(name))
+
+# # len() method
+
+# name = "Abbas";
+# print(len(name));
