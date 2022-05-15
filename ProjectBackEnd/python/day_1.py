@@ -68,4 +68,11 @@
 # bu metod vasitesi ile verilen stringde isteyiniz simvolu basqa simvolla evez ede bilersiniz.
 
 # name = "terekeme";
-# print(name.replace("e", " "));
+# print(name.replace("e", "a"));
+
+# # # # #     dir() method
+
+# bu metod vasitesi ile verilen stringle isledile bilecek butun metodlari gore bilersiniz.
+
+# name = "terekeme";
+# print(dir(name));
