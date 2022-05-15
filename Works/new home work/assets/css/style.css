@@ -161,7 +161,7 @@ i {
   background: #dc4d57;
 }
 
-.input__box {
+/* .input__box {
   position: relative;
 }
 
@@ -173,7 +173,7 @@ i {
   left: 0;
   bottom: 0;
   background-color: #ffffff;
-}
+} */
 
 .common__container input:focus {
   background-color: #dc4d57;
