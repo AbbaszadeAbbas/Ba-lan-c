@@ -1,31 +1,33 @@
-# print("Hello World");
+# print("Let's GO!");
 
-# # F'string
+# # # # #     f'string
 
 # bu metoddan stringe basqa stringi elave etmek ucun istifade olunur
 
 # name = 'dunya';
 # message = f"merhaba  {name}";
-# print(message)
+# print(message)   # expected output: merhaba  dunya
 
-# # Format method
+# # # # #     format() method
 
 # bu metoddan stringe basqa stringi elave etmek ucun istifade olunur
 
 # name = "Abbas";
 # message = "adim:{}";
-# print(message.format(name))
+# print(message.format(name))  # expected output: adim:Abbas
 
-# # len() method
+# # # # #     len() method
 
 # bu metoddan verilen stringdeki soz( ve ya sozlerin ) uzunlugunu olcmek ucun istifade olunur
 
 # name = "Abbas";
-# print(len(name));
+# print(len(name));    #expected output: 5
+# print(name[1]);      # burda kvadrat moterzenin icerisine , cap etdirmek istediyin simvolun indeksini daxil etmek lazimdir
+# print(name[1:3])     # burda kvadrat moterzenin icerisine , cap etdirmek istediyin simvollarin 1cisi ile axrincisinin indeksini elave etmek lazimdir indeksini daxil etmek lazimdir    Qeyd: 2ci yazilan indeks axrinci cap edilmesi teleb olunan simvoldan 1 sonraki olmalidir.Yeni eger 1ci 2ci ve 3cu simvollari cap etdirmek lazimdirsa o zaman print(name[1:(lazim olan axrinci simvolun index i + 1)4])
 
-# # title() method
+# # # # #     title() method
 
 # bu metoddan stringdeki sozlerin bas herfini boyutmek ucun istifade olunur.
 
 # name = "hello world";
-# print(name.title())
+# print(name.title())    #expected output: Hello World
