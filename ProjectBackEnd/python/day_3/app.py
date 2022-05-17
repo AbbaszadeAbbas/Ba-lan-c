@@ -25,3 +25,13 @@ num_1 = int(num__1);
 num_2 = int(num__2);
 
 print(num_1+num_2)   # expected output: 31
+
+
+# # # #     str() method
+
+# bu metoddan verilen number i stringe cevirmek ucundur.
+
+age = 15;
+message = "Menim " + str(age) + " yasim var.";
+
+print(message)   # expected output: Menim 15 yasim var.
