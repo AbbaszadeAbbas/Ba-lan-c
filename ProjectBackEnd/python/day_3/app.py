@@ -1,37 +1,37 @@
-# # # #     max() method
+# # # # #     max() method
 
-# bu metoddan verilen inputun icindeki ededlerin en boyuyunu secmek ucun istifade olunur.
+# # bu metoddan verilen inputun icindeki ededlerin en boyuyunu secmek ucun istifade olunur.
 
-number = 1,2,3,4,5;
-print(max(number))   # expected output: 5
-
-
-# # # #     min() method
-
-# bu metoddan verilen inputun icindeki ededlerin en kiciyini secmek ucun istifade olunur.
-
-number = 1,2,3,4,5;
-print(min(number))   # expected output: 1
+# number = 1,2,3,4,5;
+# print(max(number))   # expected output: 5
 
 
-# # # #     int() method
+# # # # #     min() method
 
-# bu metoddan verilen stringi number a cevirmek ucundur.
+# # bu metoddan verilen inputun icindeki ededlerin en kiciyini secmek ucun istifade olunur.
 
-num__1 = "15";
-num__2 = "16";
-
-num_1 = int(num__1);
-num_2 = int(num__2);
-
-print(num_1+num_2)   # expected output: 31
+# number = 1,2,3,4,5;
+# print(min(number))   # expected output: 1
 
 
-# # # #     str() method
+# # # # #     int() method
 
-# bu metoddan verilen number i stringe cevirmek ucundur.
+# # bu metoddan verilen stringi number a cevirmek ucundur.
 
-age = 15;
-message = "Menim " + str(age) + " yasim var.";
+# num__1 = "15";
+# num__2 = "16";
 
-print(message)   # expected output: Menim 15 yasim var.
+# num_1 = int(num__1);
+# num_2 = int(num__2);
+
+# print(num_1+num_2)   # expected output: 31
+
+
+# # # # #     str() method
+
+# # bu metoddan verilen number i stringe cevirmek ucundur.
+
+# age = 15;
+# message = "Menim " + str(age) + " yasim var.";
+
+# print(message)   # expected output: Menim 15 yasim var.
