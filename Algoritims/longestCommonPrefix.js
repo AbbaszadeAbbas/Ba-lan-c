@@ -1,4 +1,10 @@
-var longestCommonPrefix = function(strs) {
+// // // // LeetCode
+
+/**
+ * @param {string[]} strs
+ * @return {string}
+ */
+var longestCommonPrefix = function (strs) {
   var res;
   res = "";
 
