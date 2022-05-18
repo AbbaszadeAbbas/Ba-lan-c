@@ -1,0 +1,31 @@
+body {
+  background-image: url(https://images.typeform.com/images/DxkpHUnDd8/background/large);
+}
+
+#variant1,
+#variant2,
+#variant3 {
+  display: block;
+  margin: 10px 0;
+  visibility: hidden;
+}
+
+#addVariant {
+  visibility: hidden;
+}
+
+#suallar {
+  display: flex;
+  flex-direction: column;
+}
+
+#question {
+  color: white;
+}
+
+#A,
+#B,
+#C {
+  visibility: hidden;
+  color: white;
+}
