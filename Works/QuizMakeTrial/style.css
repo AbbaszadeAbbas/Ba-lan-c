@@ -1,5 +1,10 @@
 body {
   background-image: url(https://images.typeform.com/images/DxkpHUnDd8/background/large);
+  display:flex;
+}
+
+#_common{
+  margin: 100px auto;
 }
 
 #variant1,

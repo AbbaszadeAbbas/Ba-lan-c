@@ -21,6 +21,9 @@ clickToAdd.addEventListener('click' , function(e){
   B.style.visibility = "visible"
   C.style.visibility = "visible"
   addVariant.style.visibility = "visible"
+
+  questionInput.style.display = 'none'
+  clickToAdd.style.display = 'none'
 })
 
 addVariant.addEventListener('click' , function(e){
@@ -28,4 +31,8 @@ addVariant.addEventListener('click' , function(e){
   A.innerHTML = "A) " + variant1.value;
   B.innerHTML = "B) " + variant2.value;
   C.innerHTML = "C) " + variant3.value;
+  variant1.style.display = "none";
+  variant2.style.display = "none";
+  variant3.style.display = "none";
+  addVariant.style.display = "none"
 })
