@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Quiz</title>
+</head>
+
+<body>
+  <section class="heading">
+    <div class="heading_inside">
+      <div class="heading_inside_logo">
+        <img src="https://myquizhubblobcorewindowsnet-waveaccess.netdna-ssl.com/customization/default/logo/game-logo.svg?v=0">
+      </div>
+      <div class="heading_inside_buttons">
+        <button class="heading_inside_buttons_btn heading_inside_buttons_btn_left">
+          <p>Try now</p>
+        </button>
+        <button class="heading_inside_buttons_btn heading_inside_buttons_btn_right">
+          <p>Log in</p>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="body">
+    <div class="box">
+      <div class="com" >
+        <div id="ins1"  class="box-inside">
+          <div class="forg-head"><b>Forgot Password</b></div>
+          <p class="forg-user">Email</p>
+          <input class="forg-input" type="text" placeholder="Email" id="forgotEmail input" autofocus>
+          <button style="margin:25px 0 10px 0;" class="login-button"><b>Send Email</b></button>
+          <a onclick="Sifirla()" class="forg-a">Log In</a>
+        </div>
+        <div id="ins2" class="box-inside">
+          <header class="box-inside-head"><b>Login Here</b></header>
+          <div class="user-name">
+            <p class="ins">Username<b style="margin:0 10px;color: red;">*</b><b style=" visibility: hidden; color: red;" class="error1">Please Complete Here</b></p>
+            <input class="input inpt1" type="email" placeholder="Email" id="input" autofocus>
+          </div>
+          <div class="password">
+            <p class="ins">Password<b style="margin:0 10px; color: red;">*</b><b style=" visibility: hidden; color: red;" class="error2">Please Complete Here</b></p>
+            <input  class="input inpt2" type="password" placeholder="Password" id="input" autofocus>
+          </div>
+          <div class="check">
+            <div class="remember">
+              <input style="width: 20px; height:20px;" type="checkbox" id="Remember Me" name="Remember Me" value="Me">
+              <label for="Remember Me"><span class="Remember-Me">Remember Me</span></label>
+              <a id="yuxari" onclick="Yuxari()">Forgot Password?</a>
+            </div>
+          </div>
+          <button class="login-button"><b>Log In</b></button>
+          <div class="social">
+            <button style="background: #4285F4;"><b>Google</b></button>
+            <button style="background: #3b5998;"><b>Facebook</b></button>
+          </div>
+          <div style="margin-top:10px;" class="sign-up">
+            <a id="asagi" onclick="Asagi()">Sign Up</a>
+          </div>
+        </div>
+        <div id="ins3"  class="box-inside">
+          <div class="stp-head"><p>Sign Up Here</p></div>
+          <p class="stp-p">Full Name</p>
+          <input class="stp-input" type="text" placeholder="Full Name" id="forgotEmail input" autofocus>
+          <p class="stp-p">Email</p>
+          <input class="stp-input" type="text" placeholder="Email" id="forgotEmail input" autofocus>
+          <p class="stp-p">Password</p>
+          <input class="stp-input" type="text" placeholder="Password" id="forgotEmail input" autofocus>
+          <p class="stp-p">Confirm Password</p>
+          <input class="stp-input" type="text" placeholder="Confirm Password" id="forgotEmail input" autofocus>
+          <button style="margin:25px 0 10px 0;" class="login-button"><b>Sign Up</b></button>
+          <a onclick="Sifirla()"  class="forg-a">Log In</a>
+      </div>
+      </div>
+  </section>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
