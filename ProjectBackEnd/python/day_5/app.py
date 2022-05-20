@@ -22,7 +22,7 @@ print("London" in cities);     # expected output: False
 
 # # # #     split()  method
 
-# bu metod ile verilen stringdeki elementi istenilen 2 hisseye ayirmaq olar.
+# bu metod ile verilen stringdeki elementi istenilen 2 hisseye ayirmaq olar .
 
 e_mail = 'codingISbest';
 
