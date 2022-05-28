@@ -23,6 +23,7 @@ section{
   height: 500px;
   border: 1px solid black;
   margin: 0;
+  /* transform: translateY(); */
 }
 
 .parts img{
@@ -35,4 +36,9 @@ section{
   border: 1px solid gray;
   width: 58px;
   height: 116px;
+}
+
+.buttons button{
+  width: 100%;
+  height: 50%;
 }

@@ -1,5 +1,5 @@
-let a = " ";
-let b = "#";
+// let a = " ";
+// let b = "#";
 
 // let cem1 = a + a + a + a + a + b
 // let cem2 = a + a + a + a + b + b
