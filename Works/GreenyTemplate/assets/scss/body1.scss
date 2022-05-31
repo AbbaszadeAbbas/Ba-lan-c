@@ -1,0 +1,78 @@
+// Pixels
+$px_300: 300px;
+$px_740: 740px;
+$px_1200: 1200px;
+
+// Percent
+$prc_100: 100%;
+
+.body_1 {
+  width: $prc_100;
+  height: $px_740;
+  background: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body_1_inside {
+  width: $px_1200;
+  height: $px_300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body_1_inside h1 {
+  width: 750px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #39404a;
+  font-size: 55px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.body_1_inside h3 {
+  width: 100%;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #39404a;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.body_1_inside ul {
+  width: 660px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body_1_inside_icons {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 25px 35px 0 rgb(0 0 0 / 15%);
+  transition: all linear 0.3s;
+}
+
+.body_1_inside_icons:hover {
+  transform: translateY(-10px);
+}
+
+
+.body_1_inside_icons img {
+  width: 36px;
+  height: 40px;
+}
