@@ -1,6 +1,37 @@
+// Pixels
+$px_0:0px;
+$px_10:10px;
+$px_20:20px;
+$px_25:25px;
+$px_28:28px;
+$px_35:35px;
+$px_36:36px;
+$px_40:40px;
+$px_55:55px;
+$px_80:80px;
+$px_116:116px;
+$px_300:300px;
+$px_570:570px;
+$px_660:660px;
+$px_740:740px;
+$px_750:750px;
+$px_1200:1200px;
+
+
+// Percent
+$prc_50:50%;
+$prc_86:86%;
+$prc_100:100%;
+
+// Colors
+$color_body_1_inside_h1:#39404a;
+$color_white:#ffffff;
+$body_1_inside_icons_box_shadow:rgb(0 0 0 / 15%);
+
+
 .body_1 {
-  width: 100%;
-  height: 740px;
+  width: $prc_100;
+  height: $px_740;
   background: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -11,8 +42,8 @@
 }
 
 .body_1_inside {
-  width: 1200px;
-  height: 300px;
+  width: $px_1200;
+  height: $px_300;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,66 +52,68 @@
 }
 
 .body_1_inside h1 {
-  width: 750px;
-  height: 116px;
+  width: $px_750;
+  height: $px_116;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #39404a;
-  font-size: 55px;
+  color: $body_1_inside_h1;
+  font-size: $px_55;
   text-align: center;
   font-weight: bold;
 }
 
 .body_1_inside h3 {
-  width: 100%;
-  height: 28px;
+  width: $prc_100;
+  height: $px_28;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #39404a;
-  font-size: 20px;
+  color: $color_body_1_inside_h1;
+  font-size: $px_20;
   font-weight: 500;
 }
 
 .body_1_inside ul {
-  width: 660px;
-  height: 80px;
+  width: $px_660;
+  height: $px_80;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .body_1_inside_icons {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #ffffff;
+  width: $px_80;
+  height: $px_80;
+  border-radius: $prc_50;
+  background-color: $color_white;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 25px 35px 0 rgb(0 0 0 / 15%);
+  box-shadow: $px_0 $px_25 $px_35 $px_0 $body_1_inside_icons_box_shadow;
   transition: all linear 0.3s;
 }
 
 .body_1_inside_icons:hover {
-  transform: translateY(-10px);
+  transform: translateY(-$px_10);
 }
 
 
 .body_1_inside_icons img {
-  width: 36px;
-  height: 40px;
+  width: $px_36;
+  height: $px_40;
 }
 
 @media (max-width:700px) {
   .body_1_inside {
-    width: 86%;
+    width: $prc_86;
   }
-  .body_1_inside h1{
-    font-size: 36px;
+
+  .body_1_inside h1 {
+    font-size: $px_36;
   }
-  .body_1_inside ul{
-    width: 570px;
+
+  .body_1_inside ul {
+    width: $px_570;
   }
 }
