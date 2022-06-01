@@ -1,0 +1,29 @@
+// Colors
+$text_color:#39404A;
+
+// Pixels
+$px_42:42px;
+$px_50:50px;
+$px_110:110px;
+$px_1200:1200px;
+
+// Percents
+$prc_100:100%;
+
+
+.body_2 {
+  margin-top: $px_110;
+  border: 1px solid black;
+  width: $px_1200;
+  display: flex;
+  justify-content: center;
+}
+
+.body_2 h2 {
+  width: $prc_100;
+  color: $text_color;
+  font-size: $px_42;
+  line-height: $px_50;
+  font-weight: 700;
+  text-align: center;
+}

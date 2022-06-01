@@ -2,8 +2,10 @@
 @import url(./reset.css);
 @import url(./heading.css);
 @import url(./body1.css);
+@import url(./body2.css);
 
-
-p,h1,h3 {
-  font-family: 'Rubik', sans-serif;
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
