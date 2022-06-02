@@ -42,6 +42,7 @@ $prc_100:100%;
   align-items: center;
   position: fixed;
   background: $heading_bg;
+  z-index: 3;
 }
 
 .heading_inside {

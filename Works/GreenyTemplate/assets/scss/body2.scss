@@ -2,9 +2,17 @@
 $text_color:#39404A;
 
 // Pixels
+$px_8:8px;
+$px_18:18px;
+$px_40:40px;
 $px_42:42px;
+$px_47:47px;
 $px_50:50px;
+$px_105:105px;
 $px_110:110px;
+$px_347:347px;
+$px_395:395px;
+$px_575:575px;
 $px_1200:1200px;
 
 // Percents
@@ -13,17 +21,96 @@ $prc_100:100%;
 
 .body_2 {
   margin-top: $px_110;
-  border: 1px solid black;
   width: $px_1200;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-bottom: $px_105;
 }
 
-.body_2 h2 {
+.bodies_heading {
   width: $prc_100;
   color: $text_color;
   font-size: $px_42;
   line-height: $px_50;
   font-weight: 700;
   text-align: center;
+  margin-bottom: $px_40;
+  text-transform: uppercase;
+}
+
+.body_2_1 {
+  width: $prc_100;
+  height: $px_395;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body_2_1_circle {
+  background: #ffff;
+  position: absolute;
+  border-radius: 50%;
+  width: 116px;
+  height: 116px;
+  margin-top: -26px;
+  box-shadow: 0 8px 30px 0 rgb(0 0 0 / 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body_2_1_circle1 {
+  margin-left: -26px;
+}
+
+.body_2_1_circle2 {
+  margin-left: 490px;
+}
+
+.body_2_1_circle_inside {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #119744;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.body_2_1_left,
+.body_2_1_right {
+  // border: 1px solid blue;
+  width: $px_575;
+  height: $prc_100;
+}
+
+.home_index {
+  width: $px_575;
+  height: $px_347;
+  border-radius: $px_8;
+}
+
+.home_index1 {
+  background-image: url(../images/index_left.jpg);
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, .1);
+}
+
+.home_index2 {
+  background-image: url(../images/index_right.jpg);
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, .1);
+}
+
+.body_2_1_text {
+  height: $px_47;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $px_18;
+  font-weight: 600;
+  color: $text_color;
 }
