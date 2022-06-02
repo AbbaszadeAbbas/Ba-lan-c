@@ -40,11 +40,11 @@
   font-weight: 600;
 }
 
-.heading_inside_list_elements p {
-  transition: all 0.4s linear;
+.heading_inside_list_elements a {
+  color: #39404A;
 }
 
-.heading_inside_list_elements p:hover {
+.heading_inside_list_elements a:hover {
   color: #71FFAD;
 }
 

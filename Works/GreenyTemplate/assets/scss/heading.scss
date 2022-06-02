@@ -76,11 +76,11 @@ $prc_100:100%;
   font-weight: 600;
 }
 
-.heading_inside_list_elements p {
-  transition: all .4s linear;
+.heading_inside_list_elements a {
+  color: $heading_inside_list_elements;
 }
 
-.heading_inside_list_elements p:hover {
+.heading_inside_list_elements a:hover {
   color: $heading_inside_list_elements_p_hover;
 }
 

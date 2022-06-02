@@ -10,3 +10,7 @@ body {
   align-items: center;
   background-color: #eeeeee;
 }
+
+a{
+  text-decoration: none;
+}
