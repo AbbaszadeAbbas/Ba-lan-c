@@ -14,6 +14,7 @@ $px_34:34px;
 $px_35:35px;
 $px_50:50px;
 $px_54:54px;
+$px_105:105px;
 $px_180:180px;
 $px_274:274px;
 $px_277:277px;
@@ -28,6 +29,7 @@ $prc_100:100%;
 
 .body_4 {
   width: $px_1200;
+  margin-bottom: $px_105;
 }
 
 .body_4_inside {
