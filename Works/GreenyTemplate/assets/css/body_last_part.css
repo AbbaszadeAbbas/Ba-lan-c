@@ -1,0 +1,24 @@
+.body_last_part {
+  width: 1200px;
+}
+
+.body_last_part_inside {
+  width: inherit;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.body_last_part_inside_elements {
+  width: 216px;
+  height: 143px;
+  color: #555555;
+  border-radius: 8px;
+  background: #fff;
+  transition: all linear 0.3s;
+}
+
+.body_last_part_inside_elements:hover {
+  background: #119744;
+  color: #fff;
+}
