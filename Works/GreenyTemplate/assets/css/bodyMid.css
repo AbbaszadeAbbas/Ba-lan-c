@@ -1,9 +1,9 @@
-.body_4 {
+.body_middle {
   width: 1200px;
   margin-bottom: 105px;
 }
 
-.body_4_inside {
+.body_mid_inside {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -11,30 +11,30 @@
   grid-column-gap: 34px;
 }
 
-.body_4_parts {
+.body_mid_parts {
   width: 274px;
   height: 277px;
 }
 
-.body_4_inside_parts {
+.body_mid_inside_parts {
   width: inherit;
   height: inherit;
   transition: all 0.3s linear;
 }
 
-.body_4_inside_parts:hover {
+.body_mid_inside_parts:hover {
   transform: translateY(-5px);
 }
 
-.body_4_inside_parts:hover .body_4_pictures_bg {
+.body_mid_inside_parts:hover .body_mid_pictures_bg {
   opacity: 1;
 }
 
-.body_4_inside_parts:hover .body_4_pictures_bg button {
+.body_mid_inside_parts:hover .body_mid_pictures_bg button {
   transform: translateY(0px);
 }
 
-.body_4_pictures {
+.body_mid_pictures {
   width: 100%;
   height: 229px;
   border-radius: 8px;
@@ -45,7 +45,7 @@
   box-shadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.1);
 }
 
-.body_4_pictures_bg {
+.body_mid_pictures_bg {
   position: absolute;
   width: inherit;
   height: inherit;
@@ -58,7 +58,7 @@
   align-items: center;
 }
 
-.body_4_pictures_bg button {
+.body_mid_pictures_bg button {
   width: 180px;
   height: 54px;
   background: #119744;
@@ -71,14 +71,14 @@
   transition: all 0.3s linear;
 }
 
-.body_4_pictures_bg button a {
+.body_mid_pictures_bg button a {
   text-transform: uppercase;
   color: white;
   font-size: 14px;
   font-weight: 500;
 }
 
-.body_4_pictures img {
+.body_mid_pictures img {
   width: 100%;
   height: 100%;
   border: none;

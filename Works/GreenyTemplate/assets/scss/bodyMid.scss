@@ -1,8 +1,8 @@
 // Colors
-$body_4_pictures_box_shadow:rgba(0, 0, 0, 0.1);
-$body_4_pictures_bg:rgba(0, 0, 0, 0.7);
+$body_mid_pictures_box_shadow:rgba(0, 0, 0, 0.1);
+$body_mid_pictures_bg:rgba(0, 0, 0, 0.7);
 $white:#ffff;
-$body_4_pictures_bg_button_bg: #119744;
+$body_mid_pictures_bg_button_bg: #119744;
 
 // Pixels
 $px_0:0px;
@@ -21,18 +21,15 @@ $px_277:277px;
 $px_229:229px;
 $px_1200:1200px;
 
-
 // Percents
 $prc_100:100%;
 
-
-
-.body_4 {
+.body_middle {
   width: $px_1200;
   margin-bottom: $px_105;
 }
 
-.body_4_inside {
+.body_mid_inside {
   width: $prc_100;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -40,30 +37,30 @@ $prc_100:100%;
   grid-column-gap: $px_34;
 }
 
-.body_4_parts {
+.body_mid_parts {
   width: $px_274;
   height: $px_277;
 }
 
-.body_4_inside_parts {
+.body_mid_inside_parts {
   width: inherit;
   height: inherit;
   transition: all 0.3s linear;
 }
 
-.body_4_inside_parts:hover {
+.body_mid_inside_parts:hover {
   transform: translateY(-$px_5);
 }
 
-.body_4_inside_parts:hover .body_4_pictures_bg {
+.body_mid_inside_parts:hover .body_mid_pictures_bg {
   opacity: 1;
 }
 
-.body_4_inside_parts:hover .body_4_pictures_bg button {
+.body_mid_inside_parts:hover .body_mid_pictures_bg button {
   transform: translateY($px_0);
 }
 
-.body_4_pictures {
+.body_mid_pictures {
   width: $prc_100;
   height: $px_229;
   border-radius: $px_8;
@@ -71,15 +68,15 @@ $prc_100:100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: $px_0 $px_15 $px_35 $px_0 $body_4_pictures_box_shadow;
+  box-shadow: $px_0 $px_15 $px_35 $px_0 $body_mid_pictures_box_shadow;
 }
 
-.body_4_pictures_bg {
+.body_mid_pictures_bg {
   position: absolute;
   width: inherit;
   height: inherit;
   border-radius: $px_8;
-  background: $body_4_pictures_bg;
+  background: $body_mid_pictures_bg;
   transition: all 0.3s linear;
   opacity: 0;
   display: flex;
@@ -87,10 +84,10 @@ $prc_100:100%;
   align-items: center;
 }
 
-.body_4_pictures_bg button {
+.body_mid_pictures_bg button {
   width: $px_180;
   height: $px_54;
-  background: $body_4_pictures_bg_button_bg;
+  background: $body_mid_pictures_bg_button_bg;
   border-radius: $px_8;
   display: flex;
   justify-content: center;
@@ -100,14 +97,14 @@ $prc_100:100%;
   transition: all 0.3s linear;
 }
 
-.body_4_pictures_bg button a {
+.body_mid_pictures_bg button a {
   text-transform: uppercase;
   color: $white;
   font-size: $px_14;
   font-weight: 500;
 }
 
-.body_4_pictures img {
+.body_mid_pictures img {
   width: $prc_100;
   height: $prc_100;
   border: none;
