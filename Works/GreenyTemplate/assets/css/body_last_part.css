@@ -16,9 +16,27 @@
   border-radius: 8px;
   background: #fff;
   transition: all linear 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .body_last_part_inside_elements:hover {
   background: #119744;
   color: #fff;
+}
+
+.body_last_part_inside_elements_icon {
+  border: 1px solid #000;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.body_last_part_inside_elements h2 {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
