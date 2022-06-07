@@ -1,10 +1,28 @@
+// Pixels
+$px_10:10px;
+$px_20:20px;
+$px_25:25px;
+$px_25:25px;
+$px_42:42px;
+$px_45:45px;
+$px_50:50px;
+$px_56:56px;
+$px_60:60px;
+$px_110:110px;
+$px_220:220px;
+$px_700:700px;
+$px_1200:1200px;
 
 
+// Colors
+$body_finish_h2: #39404a;
+$body_finish_p:#555555;
+$body_finish_p_a:#119744;
 
 .body_finish {
-  width: 1200px;
-  margin-top: 110px;
-  margin-bottom: 20px;
+  width: $px_1200;
+  margin-top: $px_110;
+  margin-bottom: $px_20;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,29 +30,29 @@
 }
 
 .body_finish_logo {
-  width: 220px;
-  height: 56px;
-  margin-bottom: 25px;
+  width: $px_220;
+  height: $px_56;
+  margin-bottom: $px_25;
   cursor: pointer;
 }
 
 .body_finish h2 {
-  width: 700px;
+  width: $px_700;
   text-transform: uppercase;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: $px_42;
+  line-height: $px_50;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 45px;
-  color: #39404a;
+  margin-bottom: $px_45;
+  color: $body_finish_h2;
 }
 
 .body_finish p {
-  margin-bottom: 10px;
-  margin-top: 60px;
-  color: #555555;
+  margin-bottom: $px_10;
+  margin-top: $px_60;
+  color: $body_finish_p;
 }
 
 .body_finish p a {
-  color: #119744;
+  color: $body_finish_p_a;
 }
